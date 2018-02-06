@@ -10,10 +10,6 @@ import BrowserSync from "browser-sync";
 import watch from "gulp-watch";
 import webpack from "webpack";
 import webpackConfig from "./webpack.conf";
-/* import sass from "gulp-sass";
-import autoprefixer from "gulp-autoprefixer";
-import plumber from "gulp-plumber";
-import sourcemaps from "gulp-sourcemaps"; */
 
 const browserSync = BrowserSync.create();
 
@@ -37,20 +33,6 @@ gulp.task("css", () => (
     .pipe(browserSync.stream())
 ));
 
-/*
-gulp.task('css', function() {
-    gulp.src('./src/sass/style.scss')
-        .pipe(plumber())
-        .pipe(sourcemaps.init())
-        .pipe(sass.sync())
-        .pipe(autoprefixer({
-            browsers: ["last 5 version", "IE 9"]
-        }))
-        .pipe(sourcemaps.write())
-        .pipe(gulp.dest('./dist/css'))
-        .pipe(browserSync.stream());
-});
-*/
 
 // Compile Javascript
 gulp.task("js", (cb) => {
@@ -76,7 +58,19 @@ gulp.task('fonts', () => (
 ));
 
 // Development server with browsersync
-gulp.task("server", ["hugo-preview", "css", "js", "fonts"], () => {
+// gulp.task("server", ["hugo-preview", "css", "js", "fonts"], () => {
+//   browserSync.init({
+//     server: {
+//       baseDir: "./dist"
+//     }
+//   });
+//   watch("./src/js/**/*.js", () => { gulp.start(["js"]) });
+//   watch("./src/css/**/*.css", () => { gulp.start(["css"]) });
+//   watch("./src/fonts/**/*", () => { gulp.start(["fonts"]) });
+//   watch("./site/**/*", () => { gulp.start(["hugo-preview"]) });
+// });
+
+gulp.task("server", ["hugo", "css", "js", "fonts"], () => {
   browserSync.init({
     server: {
       baseDir: "./dist"
@@ -85,7 +79,7 @@ gulp.task("server", ["hugo-preview", "css", "js", "fonts"], () => {
   watch("./src/js/**/*.js", () => { gulp.start(["js"]) });
   watch("./src/css/**/*.css", () => { gulp.start(["css"]) });
   watch("./src/fonts/**/*", () => { gulp.start(["fonts"]) });
-  watch("./site/**/*", () => { gulp.start(["hugo-preview"]) });
+  watch("./site/**/*", () => { gulp.start(["hugo"]) });
 });
 
 /**
