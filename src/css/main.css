@@ -11,20 +11,21 @@
 :root{
   --font-serif: serif;
   --font-sans: "open sans";
+  --red:#ffff00;
 }
 body{
   font-family: var(--font-sans);
   font-size: 1em;
   text-align: center;
 }
-/* a{
+a{
   --red:#ff0000;
   color:var(--red);
   &:hover{
-    color:color(var(--red) tint(50%));
+    color:color(var(--red) saturation(-50%));
   }
-} */
-a {
+}
+/* a {
   --red:#ff0000;
   color:var(--red);
   //color: color(red alpha(-10%));
@@ -32,4 +33,4 @@ a {
 
   a:hover {
     color: color(red blackness(80%));
-  }
+  } */
