@@ -2,13 +2,34 @@
   You can use import statements to include partials:
  */
 @import "imports/reset.css";
+@import "imports/normalize.css";
 
 
 /*
   Or add your statements here:
  */
+:root{
+  --font-serif: serif;
+  --font-sans: "open sans";
+}
 body{
-  font-family: sans-serif;
+  font-family: var(--font-sans);
   font-size: 1em;
   text-align: center;
 }
+/* a{
+  --red:#ff0000;
+  color:var(--red);
+  &:hover{
+    color:color(var(--red) tint(50%));
+  }
+} */
+a {
+  --red:#ff0000;
+  color:var(--red);
+  //color: color(red alpha(-10%));
+}
+
+  a:hover {
+    color: color(red blackness(80%));
+  }
