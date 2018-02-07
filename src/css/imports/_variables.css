@@ -1,0 +1,25 @@
+:root{
+/*
+ * COLORS
+ */
+  --white:#ffffff;
+  --black:#000000;
+
+  --yellow:#ffca05;
+  --dark:#231f20;
+
+  --body-background:color(var(--dark) lightness(+97%));
+
+  --color-nav-link:var(--yellow);
+
+/*
+ * FONTS
+ */
+  --font-serif: "pt serif";
+  --font-sans: "open sans";
+
+/*
+ * BOX SHADOW
+ */
+ --box-shadow: 0 0 10px color(var(--dark) alpha(90%));
+}

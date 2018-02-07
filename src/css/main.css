@@ -1,36 +1,13 @@
 /*
   You can use import statements to include partials:
  */
-@import "imports/reset.css";
-@import "imports/normalize.css";
+@import "imports/_variables.css";
+@import "imports/_grid.css";
+@import "imports/_base.css";
+@import "imports/_normalize.css";
 
 
 /*
   Or add your statements here:
  */
-:root{
-  --font-serif: serif;
-  --font-sans: "open sans";
-  --red:#ffff00;
-}
-body{
-  font-family: var(--font-sans);
-  font-size: 1em;
-  text-align: center;
-}
-a{
-  
-  color:var(--red);
-  &:hover{
-    color:color(var(--red) saturation(-50%));
-  }
-}
-/* a {
-  --red:#ff0000;
-  color:var(--red);
-  //color: color(red alpha(-10%));
-}
 
-  a:hover {
-    color: color(red blackness(80%));
-  } */
