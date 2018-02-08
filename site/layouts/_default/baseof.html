@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="{{ $.Site.Language.Lang }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <base href="{{ $.Site.BaseURL }}">
+    <title>{{ $.Page.Title }}</title>
+    <link rel="stylesheet" href="css/main.css"/>
+  </head>
+  <body>
+    <div class="wrapper full-width border-stripe-top">
+      {{ block "header" . }}
+
+      {{ end }}
+
+      {{ block "main" . }}
+      
+      {{ end }}
+
+      {{ block "footer" . }}
+      
+      {{ end }}
+
+    </div>
+    <script src="app.js"></script>
+  </body>
+  </html>

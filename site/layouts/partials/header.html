@@ -1,33 +1,16 @@
-<!doctype html>
-<html lang="{{ $.Site.Language.Lang }}">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <base href="{{ $.Site.BaseURL }}">
-    <title>{{ $.Site.Title }}</title>
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css"/>
-  </head>
-  <body>
-    <span class="side-stripe side-stripe--left"></span>
-    <span class="side-stripe side-stripe--right"></span>
-    <div class="wrapper full-width">
-
-    
-      <header class="header">
-        <div class="branding">
-          <div class="branding-logo">
-            <img src="/images/centurion-logo.svg" alt="">
-          </div>
-          <div class="branding-text">
-          {{if .IsHome}}
-            <h1 class="branding-name">Biuro Ochrony Centurion</h1>
-          {{else}}
-            <p class="branding-name">Biuro Ochrony Centurion</p>
-          {{end}}
-          </div> 
-             
-        </div>
-        {{ partial "menu" . }}  
-      </header>
-      
+<header class="header">
+  <button type="button" class="menu-button">Menu</button>
+  <div class="branding">
+    <div class="branding-logo">
+      <a href="/"><img src="/images/centurion-logo.svg" alt=""></a> 
+    </div>
+    <div class="branding-text">
+    {{if .IsHome}}
+      <h1 class="branding-name">Biuro Ochrony Centurion</h1>
+    {{else}}
+      <p class="branding-name">Biuro Ochrony Centurion</p>
+    {{end}}
+    </div>   
+  </div>
+  {{ partial "menu" . }}  
+</header>

@@ -1,8 +1,15 @@
-{{ partial "header" . }}
+{{ define "main" }}
+  {{ partial "header" . }}
 
-{{.Content}}
+  <main>
+    <article>
+        {{.Content}}
+    </article>
+    {{ partial "aside" . }}
+  </main>
+  
 
-{{ partial "footer" . }}
+  {{ partial "footer" . }}
 
-
+{{ end }}
 

@@ -1,5 +1,10 @@
-{{ partial "header" . }}
+{{ define "header"}}
+  {{ partial "header" .}}
+{{ end }}
 
-
-
-{{ partial "footer" . }}
+{{ define "main" }}
+  
+  <h1>chuj</h1>
+  
+  {{ partial "footer" . }}
+{{ end }}

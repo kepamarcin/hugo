@@ -8,15 +8,15 @@
   --yellow:#ffca05;
   --dark:#231f20;
 
-  --body-background:color(var(--dark) lightness(+97%));
+  --body-background:color(var(--dark) lightness(+90%));
 
   --color-nav-link:var(--yellow);
 
 /*
  * FONTS
  */
-  --font-serif: "pt serif";
-  --font-sans: "open sans";
+  --font-serif: "pt serif", serif;
+  --font-sans: "open sans", sans;
   --font-weight-normal:400;
   --font-weight-medium:700;
   --font-weight-bold:900;
@@ -25,11 +25,39 @@
  */
   --box-shadow: 0 0 10px color(var(--dark) alpha(90%));
 
+/*
+ * MEDIA QUERIES
+ */
 
   @custom-media --viewport-small (width >= 576px);
   @custom-media --viewport-medium (width >= 768px);
   @custom-media --viewport-large (width >= 992px);
   @custom-media --viewport-xlarge (width >= 1200px);
 
+/*
+ * HEADINGS CUSTOM SELECTOR
+ */
   @custom-selector :--headings h1,h2,h3,h4,h5,h6;
+
+/*
+ * STRIPE BORDER
+ */
+  --stripe-border: {
+    position: absolute;
+    content:"";
+    width:100%;
+    height: 0;
+    
+    border:0;
+    
+    border-style: solid;
+    border-image: repeating-linear-gradient(45deg, var(--yellow) 0px, var(--yellow) 20px, var(--dark) 20px, var(--dark) 40px);
+    border-image-repeat: repeat;
+    border-image-slice: 4;
+  };
+/*
+ * MARGINS
+ */
+ --margin-small: 1rem;
+ --margin-large: 2.5rem;
 }
