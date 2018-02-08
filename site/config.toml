@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "pl-pl"
 languageLang = "pl"
-title = "My new Victor-Hugo site"
+title = "Biuro ochrony centurion"
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 

@@ -15,12 +15,19 @@
 
     
       <header class="header">
-        <img src="/images/centurion-logo.svg" alt="">
-        {{if .IsHome}}
-          <h1 class="brand">Biuro Ochrony Centurion</h1>
-        {{else}}
-          <p class="brand">Biuro Ochrony Centurion</p>
-        {{end}}
-          {{ partial "menu" . }} 
+        <div class="branding">
+          <div class="branding-logo">
+            <img src="/images/centurion-logo.svg" alt="">
+          </div>
+          <div class="branding-text">
+          {{if .IsHome}}
+            <h1 class="branding-name">Biuro Ochrony Centurion</h1>
+          {{else}}
+            <p class="branding-name">Biuro Ochrony Centurion</p>
+          {{end}}
+          </div> 
+             
+        </div>
+        {{ partial "menu" . }}  
       </header>
       
