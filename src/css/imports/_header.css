@@ -1,4 +1,4 @@
-header{
+.header{
   margin:var(--margin-large) var(--margin-small);
   @media (--viewport-medium){
       margin:0 var(--margin-large);
@@ -13,7 +13,7 @@ header{
   @media (--viewport-medium){
     flex-direction: row;
     height: auto;
-    margin:var(--margin-large) 0;
+    margin:var(--margin-large) 0 var(--margin-small);
   }
   &-logo{
     margin:auto;
@@ -26,6 +26,7 @@ header{
       @media (--viewport-medium){
         width: 170px;
         height: 170px;
+        vertical-align: middle;
       }
     }
   }
@@ -44,8 +45,8 @@ header{
   }
 }
 .menu-button{
-  top:5px;
-  right:5px;
+  top:10px;
+  right:10px;
   width:60px;
   height: 60px;
   position: absolute;
@@ -63,6 +64,18 @@ header{
   }
 }
 .menu{
-  
+  display: none;
+  & ul {
+    display:grid;
+    grid-gap:20px;
+    grid-template-columns:repeat(5,auto);
+  }
+  & a{
+    font-family: var(--font-serif);
+    font-weight: var(--font-weight-bold);
+    color: var(--dark);
+    
+  }
+
 }
   

@@ -1,0 +1,42 @@
+.home{
+  & figure {
+    margin: 0;
+    padding: 0;
+    & img {
+      width:100%;
+      height: auto;
+    }
+  } 
+  & section {
+    /* margin: 0 var(--margin-small); */
+  }
+  & .heading-decoration{
+    background-color: var(--yellow);
+    /* transform: skewX(-45deg) ; */
+    /* margin: 1rem; */
+    position: relative;
+    z-index:10;
+    & h2, & h3{
+      /* transform: skew(45deg); */
+      display: inline-block;
+      /* text-indent:20px; */
+      /* padding-left: 32px; */
+      text-align: center;
+      margin: 0 var(--margin-small);
+    }
+  }
+  & h2{
+    padding: 0.5em 0;
+    
+  }
+}
+@supports (display: grid) {
+  main{
+    display: grid;
+     
+    @media (--viewport-medium){
+      grid-template-columns: 70% 1fr;
+    }
+    
+  }
+}

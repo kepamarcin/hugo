@@ -14,12 +14,21 @@ body{
 }
 p{
   font-size:18px;
+  margin: 0 0 1em 0;
 }
 a{ 
   color:var(--color-nav-link);
   &:hover{
     color:color(var(--color-nav-link) blackness(+20%));
   }
+}
+ul,li{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+img{
+  vertical-align: top;
 }
 /*.side-stripe{
   @media (--viewport-large){

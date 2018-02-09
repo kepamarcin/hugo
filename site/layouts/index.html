@@ -3,8 +3,16 @@
 {{ end }}
 
 {{ define "main" }}
+  <main class="home">
+    <figure><img src="https://source.unsplash.com/random/1200x400" alt=""></figure>
+    <section>
+      <header class="heading-decoration">
+          <h2>Biuro ochrony Centurion to super biuro</h2>
+      </header>
+    </section>  
+    {{ partial "aside" . }}
+  </main>
   
-  <h1>chuj</h1>
   
   {{ partial "footer" . }}
 {{ end }}
