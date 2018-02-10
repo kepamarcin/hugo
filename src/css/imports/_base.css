@@ -8,20 +8,53 @@ body{
 }
 :--headings{
   font-weight: var(--font-weight-bold);
-  line-height:1;
+  line-height:1.15;
   margin:0;
   padding: 0;
 }
-p{
+p:not(.branding-name){
   font-size:18px;
   margin: 0 0 1em 0;
+  font-family: var(--font-serif);
 }
 a{ 
   color:var(--color-nav-link);
+  text-decoration:none;
   &:hover{
-    color:color(var(--color-nav-link) blackness(+20%));
+    color:color(var(--color-nav-link) blackness(+50%));
   }
 }
+/* a:not(.logo) {
+ color: var(--yellow);
+ transition: all 0.2s;
+ display: inline-block;
+ text-decoration: none;
+ position: relative;
+ z-index: 5;
+ &:hover{
+    color:var(--dark);
+  }
+ &::before {
+  position: absolute;
+  top: 0;
+  left: -10px;
+  z-index: 1;
+  box-sizing: content-box;
+  padding: 0 1em;
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  background-color: color(var(--yellow) alpha(90%));
+  content: '';
+  opacity: 0;
+  transition: transform 0.2s;
+  transform: scale(0);
+ }
+ &:hover::before{
+  opacity: 1;
+  transform: scale(1);
+ }
+} */
 ul,li{
   margin: 0;
   padding: 0;
@@ -49,15 +82,67 @@ img{
 .wrapper{
   box-shadow: var(--box-shadow);
   background-color: var(--white);
+  z-index: 0;
 }
-.border-stripe{
+/* .border-stripe{
   &-top{
   position: relative;
-  border-top: 8px solid transparent;
+  border-top: 5px solid transparent;
     &::before{
       @apply --stripe-border;
-      top:-8px;
-      border-top-width: 8px;
+      top:-5px;
+      border-top-width: 5px;
     }
   }
+  &-bottom{
+  position: relative;
+  border-bottom: 8px solid transparent;
+    &::after{
+      @apply --stripe-border-alt;
+      bottom:-8px;
+      border-bottom-width: 8px;
+      
+    }
+  }
+} */
+.border-stripe{
+  position: relative;
+  &-top{
+  border-top: 5px solid transparent;
+    &::before{
+      @apply --stripe-border;
+      top:-5px;
+      border-top-width: 5px;
+      left: 0;
+    }
+    &--bold{
+      border-top-width:10px;
+      &::before{
+      top:-10px;
+      border-top-width: 10px;
+      }
+    }
+  }
+  &-bottom{
+  border-bottom: 5px solid transparent;
+    &::after{
+      @apply --stripe-border-alt;
+      bottom:-5px;
+      border-bottom-width: 5px;
+      left: 0;
+    }
+    &--bold{
+      border-bottom-width:10px;
+      &::before{
+      bottom:-10px;
+      border-bottom-width: 10px;
+      }
+    }
+  }
+}
+.highlight{
+  font-family: var(--font-sans);
+  font-size: 23px;
+  font-weight:300;
+  padding: 20px; 
 }

@@ -16,7 +16,10 @@ Działamy na podstawie koncesji  wydanej przez MSWIA.
 Ochrona fizyczna obiektów,
 Kontrole i audyt ochrony obiektów,
 Szkolenia pracowników ochrony (BHP, PPOŻ, podejmowanie interwencji, regulacje prawne)
-Szkolenia z zakresu rozpoznawania i weryfikacji autentyczności dokumentów oraz środków płatniczych będących w obrocie UE (NOWOŚĆ)
+
+<p class="highlight border-stripe border-stripe-top border-stripe-bottom">Szkolenia z zakresu rozpoznawania i weryfikacji autentyczności dokumentów oraz środków płatniczych będących w obrocie UE (NOWOŚĆ)
+</p>
+
 Kontrola i nadzór nad pracownikami ochrony (badanie trzeźwości, sprawdzenie znajomości procedur i ich stosowania w praktyce)
 Zabezpieczenie i  obsługa imprez masowych (ochrona, stewardzi, służba informacyjna),
 Ochrona osobista VIP, 

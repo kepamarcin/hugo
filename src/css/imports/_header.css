@@ -1,5 +1,5 @@
 .header{
-  margin:var(--margin-large) var(--margin-small);
+  margin:var(--margin-large) var(--margin-small) 0;
   @media (--viewport-medium){
       margin:0 var(--margin-large);
       text-align: left;
@@ -65,17 +65,20 @@
 }
 .menu{
   display: none;
-  & ul {
-    display:grid;
-    grid-gap:20px;
-    grid-template-columns:repeat(5,auto);
+  @media (--viewport-medium){
+  display: block;  
+    & ul {
+      display:grid;
+      grid-gap:10px;
+      grid-template-columns:repeat(5,auto);
+      margin-left:var(--margin-large);
+    }
+    & a{
+      font-family: var(--font-serif);
+      font-weight: var(--font-weight-bold);
+      color: var(--dark);
+      
+    }
   }
-  & a{
-    font-family: var(--font-serif);
-    font-weight: var(--font-weight-bold);
-    color: var(--dark);
-    
-  }
-
 }
   
