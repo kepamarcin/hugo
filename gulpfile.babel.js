@@ -10,6 +10,7 @@ import BrowserSync from "browser-sync";
 import watch from "gulp-watch";
 import webpack from "webpack";
 import webpackConfig from "./webpack.conf";
+import cssnano from "cssnano";
 
 const browserSync = BrowserSync.create();
 
@@ -28,7 +29,7 @@ gulp.task("build-preview", ["css", "js", "fonts"], (cb) => buildSite(cb, hugoArg
 // Compile CSS with PostCSS
 gulp.task("css", () => (
   gulp.src("./src/css/*.css")
-    .pipe(postcss([cssImport({from: "./src/css/main.css"}), cssnext()]))
+    .pipe(postcss([cssImport({from: "./src/css/main.css"}), cssnext(), cssnano()]))
     .pipe(gulp.dest("./dist/css"))
     .pipe(browserSync.stream())
 ));

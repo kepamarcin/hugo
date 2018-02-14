@@ -1,0 +1,12 @@
+<section class="section border-stripe border-stripe-top">
+  {{ range .Pages }}
+  {{- if .Params.imagethb }}
+  <figure>
+    <a href="{{ .URL}}">
+      <img src="{{ .Params.imagethb }}" alt="">
+      <figcaption>{{ .Title }}</figcaption>
+  </a>
+  </figure>
+  {{- end }}
+  {{- end }}
+</section> 

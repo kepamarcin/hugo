@@ -68,10 +68,9 @@
   @media (--viewport-medium){
   display: block;  
     & ul {
-      display:grid;
-      grid-gap:10px;
-      grid-template-columns:repeat(5,auto);
-      margin-left:var(--margin-large);
+      display:flex;
+      justify-content:space-around;
+      /* margin-left:var(--margin-large); */
     }
     & a{
       font-family: var(--font-serif);

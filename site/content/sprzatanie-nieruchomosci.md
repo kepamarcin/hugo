@@ -1,10 +1,9 @@
 ---
-title: "Sprzatanie Nieruchomosci"
-date: 2018-02-08T13:43:28+01:00
+title: "Sprzątanie nieruchomości"
+date: 2018-02-13T10:48:30+01:00
 draft: false
-menu: "main"
-menutext: ""
 image: ""
-sidemenu: false
-sidetitle: ""
+imagethb: "https://source.unsplash.com/random/300x200"
+sidemenu: true
+sidetitle: "Sprzatanie nieruchomosci"
 ---

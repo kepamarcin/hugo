@@ -1,10 +1,13 @@
 {{- if .Site.Menus.main }}
 <nav class="menu" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement" >
 	<ul class="menu__list">
+			
 		{{- $currentNode := . }}
+		
 		{{- range sort .Site.Menus.main }}
 		{{- if .Name}}
-		<li class="menu__item{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} menu__item--active{{end}}"><a class="menu__link" href="{{ .URL }}">{{ .Name | upper }}</a></li>
+		<li class="menu__item{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} menu__item--active{{end}}">
+			<a class="menu__link" href="{{ .URL }}">{{ .Name  }}</a></li>
 		{{- end }}
 		{{- end }}
 	</ul>
@@ -12,3 +15,28 @@
 {{ else -}}
 <hr class="divider">
 {{- end }}
+
+<!-- {{- if .Site.Menus.main }}
+<nav class="menu" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement" >
+	<ul class="menu__list">
+		{{- $currentNode := . }}
+		{{- range .Pages }}
+				<li class="menu__item{{$currentNode }}">
+			<a class="menu__link" href="{{ .URL }}">{{ .Params.menutext }}</a></li>
+		{{- end }}
+	</ul>
+</nav>
+{{- end }} -->
+<!-- <nav class="sidebar-nav">
+		{{- $currentNode := . }}
+		{{ range .Pages }}
+			<a href="{{ .URL }}" >
+				{{- if .Params.menu1.main}}
+					{{.Params.menu1.main.text}}{{$currentNode}}{{ echoParam .Params "sidetitle" }}
+				{{- end}}
+				
+					
+				
+			</a>
+		{{ end }}
+	</nav> -->
