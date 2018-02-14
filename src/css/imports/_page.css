@@ -5,38 +5,53 @@
 .main-image{
   margin: 0;
   padding: 0;
+  @media (--viewport-medium){
+    margin: var(--margin-large) 0 0 0 ;
+  }
   & img {
     width:100%;
     height: auto;
   }
-} 
-.heading-decoration{
-  background-color: var(--yellow);
-  margin: 1rem 0;
-  position: relative;
+}
+.main-content, .aside{
+  margin: 0 var(--margin-small);
   @media (--viewport-medium){
-    background-color: transparent;
+    margin: 0 var(--margin-large);
   }
-  & h2, & h3{
+  & h1, & h2, & h3{
+    padding:.5em 0;
+    font-size:1.728em;
+    font-size:1.44em;
     position: relative;
     text-align: left;
-    margin: 0 var(--margin-small);
+    margin-left:-calc(var(--unit)/calc(1.2*1.2)); /* HAHAHA*/
+    margin-right:-calc(var(--unit)/calc(1.2*1.2));
     z-index: 1;
+    background: linear-gradient(to right, color(var(--dark) lightness(60%)), transparent 1.5%);
+    background-color: color(var(--dark) lightness(93%));
+    padding-left:calc(var(--unit)/calc(1.2*1.2*1.2) - calc(var(--unit)/6));
+    border-left: calc(var(--unit)/6) solid var(--yellow);
     @media (--viewport-medium){
-      margin: 0 var(--margin-large);
-    &::before{
-      content:"";
-      position: absolute;
-      width: 60px;
-      height: 60px;
-      background-color: var(--yellow);
-      top: 0;
-      left: 0;
-      transform: translate(-40%,0);
-      z-index: -1;
-      border-radius:50%;
+      font-size:1.728em;
+      margin-left: 0;
+      margin-right: 0;
+      background: transparent;
+      background-color: transparent;
+      padding-left: 0;
+      border-left:none;
+      &::before{
+        content:"";
+        position: absolute;
+        width: 2em;
+        height: 2em;
+        background-color: var(--yellow);
+        top: 0;
+        left: 0;
+        transform: translate(-40%,0);
+        z-index: -1;
+        border-radius:50%;
+      }
     }
-  }
   }
 }
 .section{
@@ -60,77 +75,7 @@
     font-size: var(--font-size-base);
   }
 }
-.aside{
-  max-width: 768px;
-  margin: calc(var(--margin-small)*3) auto;
-  @media (--viewport-medium){
-    
-  }
-  & ul{
-    
-    margin: 0 var(--margin-small);
-  }
-  & .contact{
-    display: block;
-    margin:var(--margin-small) 0 var(--margin-small) calc(var(--margin-large)+.5rem);
-    color:(--dark);
-    font-weight: var(--font-weight-bold);
-    color:crimson;
-  }
-  & a{
-    background-color: color(var(--dark) lightness(20%));
-    display: inline-block;
-    position: relative;
-    text-transform: uppercase;
-    margin:5px 0 0 calc(var(--margin-large)+.5rem);
-    line-height: 1;
-    font-weight: var(--font-weight-bold);
-    padding:2px 5px;
-    transition: color, transform  .25s ease;
-    &::before{
-      content:"";
-      position: absolute;
-      padding:2px;
-      width:1em;
-      height: 1em;
-      background-color: var(--yellow);
-      top: 0;
-      left: -25px;
-      border-radius:50% 0 0 50%;
-      transition: background-color  .25s ease;
-    }
-    &:hover{
-      transform:rotate(2deg);
-      color:var(--white);
-      background-color: var(--dark);
-      &::before{
-        background-color: var(--dark);
-      }
-    }
-    /* &.phone, &.mail{
-      margin-top:var(--margin-small);
-      &::before {
-        border-radius:0;
-        width:27px;
-        height:27px;
-        mask:url("/images/mobile.svg");
-        mask-size: contain;
-        background-color: crimson;
-        mask-repeat: no-repeat;
-        mask-position: top left;
-      }
-    }
-    &.mail{
-      &::before{
-        mask:url("/images/mail.svg");
-        left: -30px;
-      }
-    } */
-  }
-}
-.section + .section{
-  margin-top:5rem;
-}
+
 .footer{
   background-color: color(var(--dark) lightness(+80%));
   padding: var(--padding-small);
@@ -149,15 +94,16 @@
 @supports (display: grid) {
   main{
     display: grid;
-     grid-template-columns: 70% 30%;
+     grid-template-columns: 1fr;
     /*grid-template-area: */
     /* grid-template-columns: var(--margin-small) auto var(--margin-small); */
     grid-template-areas: 
-    "image image"
-    "text text"
-    "aside aside"
-    "section section";
+    "image "
+    "text" 
+    "aside "
+    "section ";
     @media (--viewport-medium){
+      grid-template-columns: 70% 30%;
       grid-template-areas: 
     "image image"
     "text aside"
@@ -169,11 +115,9 @@
   }
   .main-content {
     grid-area: text;
-    max-width: 100%;
   }
   .aside{
     grid-area: aside;
-    width: 100%;
      @media (--viewport-medium){
        margin-top:0;
      }
@@ -183,3 +127,8 @@
   }
   
 }
+/* .aside a{
+  background-color: transparent;
+  position: relative;
+  
+} */

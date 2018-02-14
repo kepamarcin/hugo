@@ -1,44 +1,16 @@
-<!-- <aside>
-    <header class="heading-decoration">
-        <h2>Na skróty</h2>
-    </header>
-  <ul>
-    <li><a href="">Sprząstanie obiektów</a></li>
-    <li><a href="">Ochrona mienia</a></li>
-    <li><a href="">Projekty ruchu drogowego</a></li>
-    <li><a href="">Sprzątanie obiektów</a></li>
-    <li><a href="">Ochrona mienia</a></li>
-    <li><a href="">Projekty ruchu drogowego</a></li>
-  </ul>
-</aside> -->
 <aside class="aside">
-  <header class="heading-decoration">
-      <h2>Na skróty</h2>
-  </header>
-
-	<ul class="menu__list">
-		
-  	
-    {{ range .Pages }}
-      {{- if .Params.sidemenu }}
+  <!-- <header class="heading-decoration"> -->
+      <h3>Na skróty</h3>
+  <!-- </header> -->
+	<ul>
+    {{ range .Site.Pages }}
+      {{- if .Params.sidetitle}}
       <li><a href="{{ .URL }}">{{ .Params.sidetitle }}</a></li>
-      
       {{- end }}
+      
     {{- end }}
     <span class="contact">Kontakt z nami</span>
-    <li><a href="" class="phone">123 123 123</a></li>
-
-    <li><a href="" class="mail">kontakt@</br>biurocenturion.com</a></li>
+    <li class="phone"><a href="tel:123123123" class="phone"><img src="images/mobile.svg" alt="" class="phonee"> 123-123-123</a></li>
+    <li class="mail"><a href="mailto:kontakt@biurocenturion.com" class="mail"><img src="images/mail.svg" alt="" class="emailee"> kontakt@</br>biurocenturion.com</a></li>
 	</ul>
-  
 </aside>
-<!-- <aside>
-    <header class="heading-decoration">
-        <h2>Na skróty</h2>
-    </header>
-    {{- if .Params.sidemenu }}
-    <figure class="post__thumbnail">
-      <img src="{{ .Params.sidemenu | relURL }}" alt="{{ .Params.sidetitle }}">
-    </figure>
-    {{- end }}
-  </aside> -->

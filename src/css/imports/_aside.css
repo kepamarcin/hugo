@@ -1,0 +1,73 @@
+.aside{
+  /* max-width: 768px; */
+  /* margin: calc(var(--margin-small)*3) auto; */
+  @media (--viewport-medium){
+    margin-right: var(--margin-small);
+    margin-left: var(--margin-small);
+    
+  
+  & ul{
+    margin: 0 var(--margin-small);
+  }
+  & .contact{
+    display: inline-block;
+    margin:calc(var(--margin-small)*1.2/1.2) 0 var(--margin-small) calc(var(--margin-large)+.5rem);
+    font-weight: var(--font-weight-bold);
+    color:crimson;
+    text-transform: uppercase;
+  }
+  & li:not(.phone, .mail) {
+    margin: calc(var(--margin-small)/3) 0;
+    opacity: .3;
+    transition:opacity .2s ease;
+    }
+  }
+  &:hover li:not(.phone, .mail){
+    opacity:1;
+  }
+  & a{
+    background-color: color(var(--dark) lightness(20%));
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+    margin:5px 0 0 calc(var(--margin-large)+.5rem);
+    line-height: 1;
+    font-weight: var(--font-weight-bold);
+    padding:2px 5px;
+    transition: color, transform  .25s ease;
+    &::before{
+      content:"";
+      position: absolute;
+      padding:2px;
+      width:1em;
+      height: 1em;
+      background-color: var(--yellow);
+      top: 0;
+      left: -25px;
+      border-radius:50% 0 0 50%;
+      transition: background-color  .25s ease;
+    }
+    &:hover{
+      transform:rotate(2deg);
+      color:var(--white);
+      background-color: var(--dark);
+      &::before{
+        background-color: var(--dark);
+      }
+      & img.phonee{
+      display: inline;
+      animation: ring 1.5s linear infinite;
+      }
+      & img.emailee{
+      display: inline;
+      animation: mail 1.4s linear infinite;
+      }
+    }
+    & img{
+      display: none;
+      position: absolute;
+      left:-50px;
+      top: 0;
+    }
+  }
+}

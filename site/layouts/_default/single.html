@@ -2,10 +2,15 @@
   {{ partial "header" . }}
 
   <main>
-    <article>
+    
+    <figure class="main-image">
+      <img src="{{ .Params.image}}" alt=".Title">
+    </figure>
+    <article class="main-content">
         {{.Content}}
     </article>
     {{ partial "aside" . }}
+    {{ partial "section" . }} 
   </main>
   
 

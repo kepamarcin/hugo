@@ -20,7 +20,8 @@
   --font-weight-normal:400;
   --font-weight-medium:700;
   --font-weight-bold:900;
-  --font-size-base: 18px;
+  --font-size-base: 1.125em;
+  /* --font-size-base: 1em; */
 /*
  * BOX SHADOW
  */
@@ -69,8 +70,11 @@
 /*
  * MARGINS & PADDINGS
  */
-  --margin-small: 1rem;
-  --margin-large: 2.5rem;
-  --padding-small: 1rem;
-  --padding-large: 2.5rem;
+  /* Unit for calculations = font base size */
+  --unit: var(--font-size-base);
+
+  --margin-small: var(--unit);
+  --margin-large: calc(var(--unit) *2.5 );
+  --padding-small: var(--unit);
+  --padding-large: calc(var(--unit) *2 );
 }
