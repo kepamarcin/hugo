@@ -97,6 +97,9 @@ img{
     border-left: calc(var(--unit)/6) solid var(--yellow);
     /* padding-left:var(--unit); */
 }
+.no-border{
+  border:none;
+}
 .has-shadow{
   position: relative;
     &::after {

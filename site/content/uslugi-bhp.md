@@ -7,12 +7,15 @@ sidemenu: true
 sidetitle: "Usługi Bhp"
 ---
 # Usługi BHP #
-Naszym celem jest kształtowanie właściwych postaw w zakresie BHP i PPOŻ. Zastosowana przez nas metodyka szkoleń uczy pracownika zdolności przewidywania, co w konsekwencji ma kluczowe znaczenie w zakresie poprawy stanu bezpieczeństwa w zakładzie pracy. Szukamy niestandardowych, indywidualnych rozwiązań. Nasi trenerzy są najlepszym dowodem na to, że BHP może być jasne, czytelne i co najważniejsze ciekawe. Nasi specjaliści służą pomocą w zakresie:
-Opracowywanie instrukcji BHP
-Szkoleń wstępnych i okresowych BHP, PPOŻ,
-Doradztwo
-Badanie trzeźwości pracowników (certyfikowane alkomaty dowodowe),
-Szkoleń z zakresu pierwszej pomocy,
-Ocena ryzyka zawodowego,
-Audyt stanu BHP w zakładzie pracy,
-Analiza zdarzeń i kompleksowa obsługa wypadków przy pracy
+Naszym celem jest kształtowanie właściwych postaw w zakresie BHP i PPOŻ. Zastosowana przez nas metodyka szkoleń uczy pracownika zdolności przewidywania, co w konsekwencji ma kluczowe znaczenie w zakresie poprawy stanu bezpieczeństwa w zakładzie pracy. Szukamy niestandardowych, indywidualnych rozwiązań. Nasi trenerzy są najlepszym dowodem na to, że BHP może być jasne, czytelne i co najważniejsze ciekawe. 
+
+Nasi specjaliści służą pomocą w zakresie:
+
+* Opracowywanie instrukcji BHP
+* Szkoleń wstępnych i okresowych BHP, PPOŻ,
+* Doradztwo
+* Badanie trzeźwości pracowników (certyfikowane alkomaty dowodowe),
+* Szkoleń z zakresu pierwszej pomocy,
+* Ocena ryzyka zawodowego,
+* Audyt stanu BHP w zakładzie pracy,
+* Analiza zdarzeń i kompleksowa obsługa wypadków przy pracy
