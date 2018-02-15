@@ -1,15 +1,15 @@
 <header class="header">
+  <div class="menu-button-c">
   <button type="button" class="menu-button">Menu</button>
+</div>
   <div class="branding">
     <div class="branding-logo">
       <a href="/" class="logo"><img src="/images/centurion-logo.svg" alt=""></a> 
     </div>
     <div class="branding-text">
-    {{if .IsHome}}
-      <h1 class="branding-name">Biuro Ochrony Centurion</h1>
-    {{else}}
-      <p class="branding-name">Biuro Ochrony Centurion</p>
-    {{end}}
+
+      <h1><span class="branding-name">{{ .Site.Title}}</span>  {{if .IsPage }} <span>{{.Title}}</span>{{end}}</h1>
+
     </div>   
   </div>
   {{ partial "menu" . }}  

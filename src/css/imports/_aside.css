@@ -57,17 +57,19 @@
       & img.phonee{
       display: inline;
       animation: ring 1.5s linear infinite;
+      top:0;
       }
       & img.emailee{
       display: inline;
-      animation: mail 1.4s linear infinite;
+      animation: mail 1.2s linear infinite;
+      bottom: 0;
       }
     }
     & img{
       display: none;
       position: absolute;
       left:-50px;
-      top: 0;
+      
     }
   }
 }
