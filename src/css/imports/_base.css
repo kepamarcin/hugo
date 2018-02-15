@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,800|PT+Serif:400,400i,700,700i&subset=latin-ext');
 
 body{
-  font-family: var(--font-sans);
+  font-family: var(--font-serif);
   font-size: var(--font-size-base);
   background: var(--body-background);
   color: var(--dark);
@@ -10,7 +10,7 @@ body{
 }
 :--headings{
   font-weight: var(--font-weight-bold);
-  /* line-height:1.15; */
+  font-family: var(--font-sans);
   margin:0;
   padding: 0;
   margin: 1.414em 0 0.5em;
@@ -24,8 +24,8 @@ h4 {font-size: 1.2em;}
 small, .font_small {font-size: 0.833em;}
 p:not(.branding-name){
   /* font-size:18px; */
-  margin: 0 0 1em 0;
-  font-family: var(--font-serif);
+  margin: 0 0 1.3em 0;
+  /* font-family: var(--font-serif); */
 }
 a{ 
   color:var(--color-nav-link);
@@ -34,10 +34,11 @@ a{
     color:color(var(--color-nav-link) blackness(+50%));
   }
 }
-ul,li{
-  margin: 0;
+li{
+  /* margin: 0;
   padding: 0;
-  list-style-type: none;
+  list-style-type: none; */
+  /* font-family: var(--font-serif); */
 }
 img{
   vertical-align: top;
@@ -85,10 +86,16 @@ img{
   }
 }
 .highlight{
+  line-height: 1.3;
   font-family: var(--font-sans);
-  font-size: 23px;
-  font-weight:300;
-  padding: 20px; 
+  font-size: calc(var(--unit)*1.2);
+  font-weight:400;
+  padding: calc(var(--unit)*1.2);
+  background: linear-gradient(to right, color(var(--dark) lightness(60%)), transparent 1.5%);
+    background-color: color(var(--dark) lightness(93%));
+    /* padding-left:calc(var(--unit)/calc(1.2*1.2*1.2) - calc(var(--unit)/6)); */
+    border-left: calc(var(--unit)/6) solid var(--yellow);
+    /* padding-left:var(--unit); */
 }
 .has-shadow{
   position: relative;

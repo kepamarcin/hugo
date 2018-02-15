@@ -1,13 +1,12 @@
 .aside{
-  /* max-width: 768px; */
-  /* margin: calc(var(--margin-small)*3) auto; */
-  @media (--viewport-medium){
-    margin-right: var(--margin-small);
-    margin-left: var(--margin-small);
-    
-  
+  font-family:var(--font-sans);
   & ul{
     margin: 0 var(--margin-small);
+    padding: 0;
+    & li{
+      margin:calc(var(--unit)/4) 0;
+      list-style-type: none;
+    }
   }
   & .contact{
     display: inline-block;
@@ -15,6 +14,18 @@
     font-weight: var(--font-weight-bold);
     color:crimson;
     text-transform: uppercase;
+  }
+  @media (--viewport-medium){
+    margin-right: var(--margin-small);
+    margin-left: var(--margin-small);
+    
+  
+  & ul{
+    margin: 0 var(--margin-small);
+    padding: 0;
+    & li{
+      list-style-type: none;
+    }
   }
   & li:not(.phone, .mail) {
     margin: calc(var(--margin-small)/3) 0;
@@ -61,7 +72,7 @@
       }
       & img.emailee{
       display: inline;
-      animation: mail 1.2s linear infinite;
+      animation: mail 1.2s linear forwards;
       bottom: 0;
       }
     }

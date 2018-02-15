@@ -1,6 +1,7 @@
 .main-content{
   max-width:768px;
   margin:0 auto;
+  font-family:var(--font-serif);
 }
 .main-image{
   margin: 0;
@@ -59,8 +60,7 @@
   display: flex;
   flex-direction: column;
   padding: var(--padding-small) 0;
-  /* border:1px solid transparent; */
-  /* box-shadow:var(--box-shadow); */
+  
 
   @media (--viewport-medium){
     margin: var(--margin-large);
@@ -69,10 +69,18 @@
   }
   & figure {
     margin: calc(var(--margin-small))  auto;
+    @media (--viewport-medium){
+      width:30%;
+    }
   }
   & figcaption {
     font-weight: var(--font-weight-bold);
+    font-family:var(--font-sans);
     font-size: var(--font-size-base);
+    color: var(--dark);
+  }
+  & img{
+    width: 100%;
   }
 }
 
@@ -127,8 +135,4 @@
   }
   
 }
-/* .aside a{
-  background-color: transparent;
-  position: relative;
-  
-} */
+
