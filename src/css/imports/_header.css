@@ -43,11 +43,14 @@
     margin: 0;
   }
   &-name{
-    /* font-size:2.0736em;*/
-    font-size:2.4888em; 
+    font-size:2.0736em;
+    
     font-family: var(--font-serif);
     font-weight: var(--font-weight-bold);
     margin: 0;
+    @media (--viewport-medium){
+      font-size:2.4888em; 
+    }
   }
 }
 .menu-button-c{
@@ -114,7 +117,7 @@
     width:100%;
     height: 100vh;
     z-index: 10;
-    background-color: color(var(--dark) lightness(20%));
+    background-color: color(var(--dark) lightness(10%));
     display: flex;
     transform:translateX(-100%);
     transition: transform .3s ease-out;
@@ -130,11 +133,13 @@
     font-weight: var(--font-weight-bold);
     font-size: calc(var(--unit)*1.2*1.2);
     overflow-y: hidden;
+    font-family:var(--font-sans);
     & a{
       /* display: block; */
       /* color: color(var(--yellow) blackness(10%)); */
       transform: translateY(var(--unit));
       transition: transform .3s ease-in-out .2s;
+      
     }
     &.is-active::before{
       width:.5em;
