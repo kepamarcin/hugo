@@ -5,7 +5,11 @@ draft: false
 image: "https://source.unsplash.com/random/1200x400"
 imagethb: "https://source.unsplash.com/random/300x200"
 sidemenu: true
-sidetitle: "Sprzatanie nieruchomosci"
+sidetitle: "Sprzatąnie nieruchomosci"
+menu:
+  main:
+    name: "Sprzatąnie"
+    weight: 4
 ---
 ## Sprzątanie nieruchomości ##
 Zajmujemy się stałym, regularnym utrzymywaniem porządku oraz jednorazowymi zleceniami na terenie Warszawy i okolic. 

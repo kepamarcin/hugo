@@ -12,33 +12,3 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
     weight = 1
     identifier = "onas"
     url = "/"
-[[menu.main]]
-    name = "Ochrona"
-    weight = 2
-    identifier = "ochrona"
-    url = "/ochrona-osob-i-mienia/"
-[[menu.main]]
-    name = "BHP"
-    weight = 3
-    identifier = "bhp"
-    url = "/uslugi-bhp/"
-[[menu.main]]
-    name = "Sprzątanie"
-    weight = 4
-    identifier = "sprzatanie"
-    url = "/sprzatanie-nieruchomosci/"
-[[menu.main]]
-    name = "Autoscout"
-    weight = 5
-    identifier = "autoscout"
-    url = "/pomoc-w-zakupie-auta-autoscout/"
-[[menu.main]]
-    name = "Kontakt"
-    weight = 7
-    identifier = "kontakt"
-    url = "/kontakt/"
-[[menu.main]]
-    name = "Ubezpieczenia"
-    weight = 6
-    identifier = "ubezpieczenia"
-    url = "/ubezpieczenia/"

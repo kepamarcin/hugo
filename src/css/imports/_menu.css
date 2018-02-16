@@ -13,33 +13,56 @@
   & ul{
     display: flex;
     flex-direction: column;
-    margin: auto calc(var(--margin-large)*1.2);
+    margin: auto  calc(var(--margin-large)*1.44) ;
+    margin: auto  0 ;
+    padding: 0;
   }
   & li {
     position: relative;
     display: inline-block;
-    margin: calc(var(--margin-small)/4);
+    margin: calc(var(--margin-small)/2) 0 0 calc(var(--margin-small)*1.44);
+    padding-left:calc(var(--margin-small));
     font-weight: var(--font-weight-bold);
     font-size: calc(var(--unit)*1.2*1.2);
     overflow-y: hidden;
     font-family:var(--font-sans);
-    & a{
-      /* display: block; */
-      /* color: color(var(--yellow) blackness(10%)); */
-      transform: translateY(var(--unit));
-      transition: transform .3s ease-in-out .2s;
-      
+    &:nth-child(2n) a{
+      transition-delay:.25s;
     }
+    &:nth-child(3n) a{
+      transition-delay:.3s;
+    }
+    &:nth-child(4n) a{
+      transition-delay:.35s;
+    }
+    &:nth-child(5n) a{
+      transition-delay:.4s;
+    }
+    &:nth-child(6n) a{
+      transition-delay:.45s;
+    }
+    &:nth-child(7n) a{
+      transition-delay:.5s;
+    }
+  }
+  & a{
+    display: block;
+    line-height: 1;
+    /* color: color(var(--yellow) blackness(10%)); */
+    transform: translateY(var(--unit));
+    visibility:hidden;
+    transition: all .2s ease-in-out .2s;
     &.is-active::before{
       width:.5em;
       height: .5em;
       content:"";
       position: absolute;
       top: 0;
-      left: -30px;
+      left: -calc(var(--margin-small));
       background-color: var(--yellow);
       border-radius:50%;
-      transform:translateY(100%);
+      transform:translateY(50%);
+      animation: pulse 1s linear infinite;
     }
   }
   &.is-open{
@@ -48,11 +71,13 @@
     
     & a{
       transform: translateY(0);
+      visibility: visible;
     }
   }
   
   @media (--viewport-medium){
   display: block;
+  visibility: visible;
   position: relative;
   transform:translate(0);
   width: auto;
@@ -67,9 +92,12 @@
     }
     & li{
       font-size: 1em;
-      overflow: hidden;
+      overflow-y: visible;
+      margin: 0;
+      padding: 0;
     }
     & a{
+      visibility: visible; 
       font-family: var(--font-serif);
       font-weight: var(--font-weight-bold);
       color: var(--dark);

@@ -5,6 +5,10 @@ draft: false
 image: "https://source.unsplash.com/random/1200x400"
 sidemenu: true
 sidetitle: "Usługi Bhp"
+menu:
+  main:
+    name: "BHP"
+    weight: 3
 ---
 # Usługi BHP #
 Naszym celem jest kształtowanie właściwych postaw w zakresie BHP i PPOŻ. Zastosowana przez nas metodyka szkoleń uczy pracownika zdolności przewidywania, co w konsekwencji ma kluczowe znaczenie w zakresie poprawy stanu bezpieczeństwa w zakładzie pracy. Szukamy niestandardowych, indywidualnych rozwiązań. Nasi trenerzy są najlepszym dowodem na to, że BHP może być jasne, czytelne i co najważniejsze ciekawe. 

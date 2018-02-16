@@ -6,6 +6,10 @@ image: "https://source.unsplash.com/random/1200x400"
 imagethb: "https://source.unsplash.com/random/300x200"
 sidemenu: true
 sidetitle: "Ochrona osób i mienia"
+menu:
+  main:
+    name: "Ochrona"
+    weight: 2
 ---
 ## Ochrona osób i mienia ##
 Jednym z głównych filarów działalności „Centuriona” jest  ochrona osób i mienia. Założycielem firmy jest wieloletni strażnik miejski  - starszy inspektor Konrad Baranowski. Zdobyte doświadczenie pozwala nie tylko na świadczenie usług na najwyższym poziomie, ale zapewnia właściwą współpracę pomiędzy prywatnym, a publicznym sektorem bezpieczeństwa. Nie stosujemy biznesowych szablonów- dla każdego klienta dobieramy ofertę indywidualnie.

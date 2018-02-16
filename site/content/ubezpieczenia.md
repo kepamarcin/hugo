@@ -5,6 +5,10 @@ draft: false
 image: "https://source.unsplash.com/random/1200x400"
 sidemenu: true
 sidetitle: "Ubezpieczenia"
+menu:
+  main:
+    name: "Ubezpieczenia"
+    weight: 5
 ---
 ## Ubezpieczenia
 Każdy biznes ma swoją specyfikę – tak jest też z klauzulami ubezpieczeniowymi OC fimy. 
