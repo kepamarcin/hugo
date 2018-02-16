@@ -8,7 +8,7 @@
     </div>
     <div class="branding-text">
 
-      <h1 class="branding-name"><span >{{ .Site.Title}}</span>  </h1>
+      <h1 class="branding-name">{{ if .IsPage}}<span class="page-title">{{ .Title }}</span>{{end}}<span class="site-title">{{ .Site.Title}}</span></h1>
 
     </div>   
   </div>

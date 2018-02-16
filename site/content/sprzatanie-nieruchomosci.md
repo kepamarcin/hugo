@@ -12,7 +12,7 @@ menu:
     name: "Sprzątanie nieruchomości"
     weight: 4
 ---
-## Sprzątanie nieruchomości ##
+## Sprzątanie nieruchomości
 Zajmujemy się stałym, regularnym utrzymywaniem porządku oraz jednorazowymi zleceniami na terenie Warszawy i okolic. 
 
 Nasza oferta skierowana jest zarówno dla firm i instytucji, jak i klientów indywidualnych.
@@ -36,5 +36,5 @@ Nasze usługi obejmują:
 * Mycie okien
 * Czyszczenie, mycie pomników
 
-## NOWOŚĆ ##
+### NOWOŚĆ
 <p class="highlight">W ramach usług obsługi nieruchomości oferujemy również pielęgnację zieleni oraz tworzenie kompleksowych organizacji ruchu, umożliwiających m.in. interwencje służb w pełnym zakresie (w naszych planach uwzględniamy wytyczne prawa budowlanego i przepisy wykonawcze dotyczące znaków i sygnałów drogowych)</p>

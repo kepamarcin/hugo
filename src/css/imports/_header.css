@@ -1,6 +1,42 @@
+.page{
+  & .header{
+    margin:calc(var(--margin-small)/2);
+
+    @media (--viewport-medium){
+    margin:0 var(--margin-large);
+    text-align: left;
+    }
+  }
+
+  & .branding{
+    height:auto;
+    &-logo{
+      margin: 0 0 calc(var(--margin-small)*1.44) 0;
+    }
+    & img{
+      width: 70px;
+      height: 70px;
+      @media (--viewport-medium){
+        width: 170px;
+        height: 170px;
+        vertical-align: middle;
+      }
+    }
+    &-text{
+      margin: 0 0 calc(var(--margin-small)*1.44) 0;
+      @media (--viewport-medium){
+      margin:auto 0 auto var(--margin-large); 
+      text-align: left;
+    }
+    }
+  }
+  & .site-title{
+    display: block;
+    font-size:calc(var(--unit)/ calc(1.44*1.2));
+  }
+}
 .header{
   margin:var(--margin-large) var(--margin-small) 0;
-  /* position: relative; */
   @media (--viewport-medium){
       margin:0 var(--margin-large);
       text-align: left;

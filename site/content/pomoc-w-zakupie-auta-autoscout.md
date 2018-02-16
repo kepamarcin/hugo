@@ -12,7 +12,7 @@ menu:
     name: "Pomoc w zakupie auta Autoscout"
     weight: 5
 ---
-# Pomoc w zakupie auta Autoscout #
+## Pomoc w zakupie auta
 Świadczymy usługi z zakresu sprawdzania stanu technicznego pojazdów. Nasi eksperci dysponują mobilnymi urządzeniami m.in. czujnikami grubości lakieru, czy komputerami diagnostycznymi, które pozwolą na wstępie ocenić przeszłość pojazdu.
 
 Do każdego badania, na życzenie klienta wystawiamy stosowny certyfikat z oględzin. Z naszych usług korzystają nie tylko osoby, które planują zakup pojazdu, ale także sprzedający, którzy chcą potwierdzić stan swojego auta. 
@@ -24,7 +24,7 @@ Jeżeli jesteś zainteresowany zakupem pojazdu , weryfikację jego stanu możemy
 
 <p class="highlight"> Sam nie możesz znaleźć odpowiedniego auta? Na podstawie Twoich wytycznych i potrzeb znajdziemy go dla Ciebie!</p>
 
-## Oferujemy
+### Oferujemy
 
 * Weryfikacja dokumentów, aktualnego stanu prawnego pojazdu
 * Sprawdzenie stanu szyb, oświetlenia, ogumienia
