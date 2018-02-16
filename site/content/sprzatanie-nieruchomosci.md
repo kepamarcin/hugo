@@ -2,7 +2,7 @@
 title: "Sprzątanie nieruchomości"
 date: 2018-02-13T10:48:30+01:00
 draft: false
-image: "https://source.unsplash.com/random/1200x400"
+image: "/images/c-cleaning-services.jpg"
 imagethb: "https://source.unsplash.com/random/300x200"
 menu:
   main:
@@ -37,4 +37,5 @@ Nasze usługi obejmują:
 * Czyszczenie, mycie pomników
 
 ### NOWOŚĆ
+![Organizacja ruchu i pielęgnacja zieleni](/images/c-organizacja-ruchu680.jpg "Organizacja ruchu i pielęgnacja zieleni | Biuro Centurion")
 <p class="highlight">W ramach usług obsługi nieruchomości oferujemy również pielęgnację zieleni oraz tworzenie kompleksowych organizacji ruchu, umożliwiających m.in. interwencje służb w pełnym zakresie (w naszych planach uwzględniamy wytyczne prawa budowlanego i przepisy wykonawcze dotyczące znaków i sygnałów drogowych)</p>

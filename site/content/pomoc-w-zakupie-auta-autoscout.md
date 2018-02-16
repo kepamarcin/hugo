@@ -2,7 +2,7 @@
 title: "Pomoc w zakupie auta Autoscout"
 date: 2018-02-13T10:48:20+01:00
 draft: false
-image: "https://source.unsplash.com/random/1200x400"
+image: "/images/c-car-6-autoscaut.jpg"
 imagethb: "https://source.unsplash.com/random/300x200"
 menu:
   main:
@@ -15,7 +15,9 @@ menu:
 ## Pomoc w zakupie auta
 Świadczymy usługi z zakresu sprawdzania stanu technicznego pojazdów. Nasi eksperci dysponują mobilnymi urządzeniami m.in. czujnikami grubości lakieru, czy komputerami diagnostycznymi, które pozwolą na wstępie ocenić przeszłość pojazdu.
 
-Do każdego badania, na życzenie klienta wystawiamy stosowny certyfikat z oględzin. Z naszych usług korzystają nie tylko osoby, które planują zakup pojazdu, ale także sprzedający, którzy chcą potwierdzić stan swojego auta. 
+Do każdego badania, na życzenie klienta wystawiamy stosowny certyfikat z oględzin. Z naszych usług korzystają nie tylko osoby, które planują zakup pojazdu, ale także sprzedający, którzy chcą potwierdzić stan swojego auta.
+
+![Autoscout](/images/c-car-autoscout680.jpg "Autoscaut Biuro Centurion")
 
 Jeżeli jesteś zainteresowany zakupem pojazdu , weryfikację jego stanu możemy przeprowadzić na dwa sposoby:
 
