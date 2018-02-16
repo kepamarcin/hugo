@@ -17,11 +17,10 @@ body{
   line-height: 1.2;
 }
 h1 {font-size: 2.074em;}
-
 h2 {font-size: 1.728em;}
 h3 {font-size: 1.44em;}
 h4 {font-size: 1.2em;}
-small, .font_small {font-size: 0.833em;}
+small{font-size: 0.833em;}
 p:not(.branding-name){
   /* font-size:18px; */
   margin: 0 0 1.3em 0;
@@ -34,12 +33,7 @@ a{
     color:color(var(--color-nav-link) blackness(+50%));
   }
 }
-li{
-  /* margin: 0;
-  padding: 0;
-  list-style-type: none; */
-  /* font-family: var(--font-serif); */
-}
+
 img{
   vertical-align: top;
 }
@@ -88,14 +82,12 @@ img{
 .highlight{
   line-height: 1.3;
   font-family: var(--font-sans);
-  font-size: calc(var(--unit)*1.2);
+  font-size: calc(var(--unit)*1.0667);
   font-weight:400;
   padding: calc(var(--unit)*1.2);
   background: linear-gradient(to right, color(var(--dark) lightness(60%)), transparent 1.5%);
     background-color: color(var(--dark) lightness(93%));
-    /* padding-left:calc(var(--unit)/calc(1.2*1.2*1.2) - calc(var(--unit)/6)); */
     border-left: calc(var(--unit)/6) solid var(--yellow);
-    /* padding-left:var(--unit); */
 }
 .no-border{
   border:none;
@@ -122,43 +114,6 @@ img{
   }
   15%,25%,35%, 45%, 55%, 65%, 75%,85%{
     transform:rotate(-10deg) scale(1.1);
-  }
-}
-@keyframes mail {
-  0%{
-    left: 0 ;
-
-  }
-  5%{
-    left: -70px ;
-    bottom: 0;
-  }
-  10%{
-    bottom:-20px;
-  }
-  20%, 80%{
-    bottom: -35px;
-  }
-  30%,70%{
-    bottom:-42px;
-  }
-  40%, 60%{
-    bottom:-43px;
-  }
-  50%{
-    left: 40%;
-    bottom:-44px;
-    
-  }
-  95%{
-    left:110%;
-    bottom:-20px;
-    opacity:1;
-  }
-  100%{
-    opacity: 0;
-    bottom:0;
-    left:90%;
   }
 }
 @keyframes pop{

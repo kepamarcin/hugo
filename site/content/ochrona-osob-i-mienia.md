@@ -4,11 +4,12 @@ date: 2018-02-13T10:48:54+01:00
 draft: false
 image: "https://source.unsplash.com/random/1200x400"
 imagethb: "https://source.unsplash.com/random/300x200"
-sidemenu: true
-sidetitle: "Ochrona osób i mienia"
 menu:
   main:
     name: "Ochrona"
+    weight: 2
+  side:
+    name: "Ochrona osób i mienia"
     weight: 2
 ---
 ## Ochrona osób i mienia ##

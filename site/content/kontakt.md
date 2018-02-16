@@ -10,3 +10,16 @@ menu:
     name: "Kontakt"
     weight: 10
 ---
+## Skontaktuj się z nami
+* lorem 
+* lorem 
+* lorem 
+* lorem 
+* lorem 
+
+## Lorem Ipsum
+* lorem 
+* lorem 
+* lorem 
+* lorem 
+* lorem 

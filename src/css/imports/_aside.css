@@ -46,6 +46,7 @@
     font-weight: var(--font-weight-bold);
     padding:2px 5px;
     transition: color, transform  .25s ease;
+    transform-origin:0 0;
     &::before{
       content:"";
       position: absolute;
@@ -59,24 +60,24 @@
       transition: background-color  .25s ease;
     }
     &:hover{
-      transform:rotate(2deg);
+      transform:rotate(1.5deg);
       color:var(--white);
       background-color: var(--dark);
       &::before{
         background-color: var(--dark);
       }
-      & img.phonee{
+      & img.aside-icon{
       display: inline;
       animation: ring 1.5s linear infinite;
-      top:0;
+      top:-2px;
       }
-      & img.emailee{
-      display: inline;
-      animation: mail 1.2s linear forwards;
-      bottom: 0;
+      & img.email{
+        top:-5px;
+      left:-55px;
       }
     }
     & img{
+      top:0;
       display: none;
       position: absolute;
       left:-50px;

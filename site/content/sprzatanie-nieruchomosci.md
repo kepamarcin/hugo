@@ -4,11 +4,12 @@ date: 2018-02-13T10:48:30+01:00
 draft: false
 image: "https://source.unsplash.com/random/1200x400"
 imagethb: "https://source.unsplash.com/random/300x200"
-sidemenu: true
-sidetitle: "Sprzatąnie nieruchomosci"
 menu:
   main:
-    name: "Sprzatąnie"
+    name: "Sprzątanie"
+    weight: 4
+  side:
+    name: "Sprzątanie nieruchomości"
     weight: 4
 ---
 ## Sprzątanie nieruchomości ##

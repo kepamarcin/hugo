@@ -1,16 +1,11 @@
 <aside class="aside">
-  <!-- <header class="heading-decoration"> -->
-      <h3>Na skróty</h3>
-  <!-- </header> -->
+  <h3>Na skróty</h3>
 	<ul>
-    {{ range .Site.Pages }}
-      {{- if .Params.sidetitle}}
-      <li><a href="{{ .URL }}">{{ .Params.sidetitle }}</a></li>
-      {{- end }}
-      
+    {{ range .Site.Menus.side }}
+      <li><a href="{{.URL}}">{{.Name}}</a></li>   
     {{- end }}
     <span class="contact">Kontakt z nami</span>
-    <li class="phone"><a href="tel:123123123" class="phone"><img src="images/mobile.svg" alt="" class="phonee"> 123-123-123</a></li>
-    <li class="mail"><a href="mailto:kontakt@biurocenturion.com" class="mail"><img src="images/mail.svg" alt="" class="emailee"> kontakt@</br>biurocenturion.com</a></li>
-	</ul>
+    <li class="phone"><a href="tel:123123123" class="phone"><img src="images/mobile.svg" alt="" class="aside-icon"> 123-123-123</a></li>
+    <li class="mail"><a href="mailto:kontakt@biurocenturion.com" class="mail"><img src="images/mail.svg" alt="" class="aside-icon email"> kontakt@</br>biurocenturion.com</a></li>
+  </ul>
 </aside>

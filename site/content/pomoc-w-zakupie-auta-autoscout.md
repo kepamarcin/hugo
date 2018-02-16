@@ -4,12 +4,13 @@ date: 2018-02-13T10:48:20+01:00
 draft: false
 image: "https://source.unsplash.com/random/1200x400"
 imagethb: "https://source.unsplash.com/random/300x200"
-sidemenu: true
-sidetitle: "Pomoc w zakupie auta Autoscout"
 menu:
   main:
     name: "Autoscout"
     weight: 4
+  side:
+    name: "Pomoc w zakupie auta Autoscout"
+    weight: 5
 ---
 # Pomoc w zakupie auta Autoscout #
 Świadczymy usługi z zakresu sprawdzania stanu technicznego pojazdów. Nasi eksperci dysponują mobilnymi urządzeniami m.in. czujnikami grubości lakieru, czy komputerami diagnostycznymi, które pozwolą na wstępie ocenić przeszłość pojazdu.

@@ -3,11 +3,12 @@ title: "Usługi Bhp"
 date: 2018-02-13T10:48:39+01:00
 draft: false
 image: "https://source.unsplash.com/random/1200x400"
-sidemenu: true
-sidetitle: "Usługi Bhp"
 menu:
   main:
     name: "BHP"
+    weight: 3
+  side:
+    name: "Usługi Bhp"
     weight: 3
 ---
 # Usługi BHP #

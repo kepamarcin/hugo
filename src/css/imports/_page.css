@@ -2,6 +2,9 @@
   max-width:768px;
   margin:0 auto;
   font-family:var(--font-serif);
+  & ul{
+    margin: 1.3em 0;
+  }
 }
 .main-image{
   margin: 0;
