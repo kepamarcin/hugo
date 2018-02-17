@@ -3,13 +3,13 @@
     position: fixed;
     top:0;
     left: 0;
-    width:100%;
+    width:100vw;
     height: 100vh;
     z-index: 10;
     background-color: color(var(--dark) lightness(10%));
     display: flex;
     transform:translateX(-100%);
-    transition: all .3s ease-out;
+    transition: all .3s cubic-bezier(.535,0,0,1) 0s;;
   & ul{
     display: flex;
     flex-direction: column;
@@ -68,7 +68,7 @@
   &.is-open{
     visibility: visible;
     transform:translateX(0);
-    
+    /* display:flex; */
     & a{
       transform: translateY(0);
       visibility: visible;

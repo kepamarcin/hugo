@@ -95,23 +95,13 @@
   position: fixed;
   z-index: 11;
 }
-.menu-button{
-  width:60px;
-  height: 60px;
-  position: relative;
-  background-color: var(--yellow);
-  border:0;
-  border-radius:50%;
-  color: var(--yellow);
-  color: var(--dark);
-  font-weight: var(--font-weight-bold);
-  
-  transition: all .2s linear;
-  &.close{
+/* .menu-open{
+  transition:all 1s linear;
+  & .menu-button{
     background-color: var(--white);
-    /* transform:rotateY(360deg); */
-    animation: pop .3s linear;
     color: var(--white);
+    color: transparent;
+    transition:all 1s linear;
     &::before{
       width: 30px;
       height: 2px;
@@ -123,9 +113,50 @@
       top: 50%;
       margin-left: -15px;
       margin-top: -1px;
-  
       animation: left .2s linear forwards .3s;
-      
+    }
+    &::after{
+      width: 30px;
+      height: 2px;
+      background: #202020;
+      display: block;
+      content: "";
+      left: 50%;
+      position: absolute;
+      top: 50%;
+      margin-left: -15px;
+      margin-top: -1px;
+      animation: right .2s linear forwards .3s;
+    }
+  }
+} */
+.menu-button{
+  width:60px;
+  height: 60px;
+  position: relative;
+  background: var(--yellow);
+  border:0;
+  border-radius:50%;
+  color: var(--dark);
+  font-weight: var(--font-weight-bold);
+  transition:all .2s linear;
+  &.close{
+    background: var(--white);
+    /* color: var(--white); */
+    color: transparent;
+    /* transition:all 1s linear; */
+    &::before{
+      width: 30px;
+      height: 2px;
+      background: #202020;
+      display: block;
+      content: "";
+      left: 50%;
+      position: absolute;
+      top: 50%;
+      margin-left: -15px;
+      margin-top: -1px;
+      animation: left .2s linear forwards .3s;
     }
     &::after{
       width: 30px;

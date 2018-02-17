@@ -12,7 +12,7 @@ menu:
     weight: 1
 ---
 ## Ubezpieczenia
-Każdy biznes ma swoją specyfikę – tak jest też z klauzulami ubezpieczeniowymi OC fimy. 
+Każdy biznes ma swoją specyfikę – tak jest też z klauzulami ubezpieczeniowymi OC firmy. 
 
 Innej formy ochrony ubezpieczeniowej potrzebuje branża transportowa, innej zaś branża spożywcza. Badanie potrzeb klienta pozwala właściwie dobrać odpowiednie klauzule, co nie tylko zabezpieczy kapitał przed konsekwencjami niekorzystnych zdarzeń. 
 
