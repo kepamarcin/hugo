@@ -10,6 +10,9 @@
 
   & .branding{
     height:auto;
+    @media (--viewport-medium){
+      margin-bottom:0;
+    }
     &-logo{
       margin: 0 0 calc(var(--margin-small)*1.44) 0;
     }
