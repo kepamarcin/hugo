@@ -2,7 +2,7 @@
 title: "Pomoc w zakupie auta Autoscout"
 date: 2018-02-13T10:48:20+01:00
 draft: false
-image: "/images/c-car-6-autoscaut.jpg"
+image: "/images/c-car-2.jpg"
 imagethb: "https://source.unsplash.com/random/300x200"
 menu:
   main:

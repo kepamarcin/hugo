@@ -116,24 +116,13 @@ img{
     transform:rotate(-10deg) scale(1.1);
   }
 }
-@keyframes pop{
-  0%{
-    transform:translateY(0);
-  }
-  50%{
-    color:transparent;
-    background:transparent;
-    transform:translateY(-150%);
-  }
-  100%{
-    transform:translateY(0);
-  }
-}
+
 @keyframes left {
   0%{
 
   }
   100%{
+    width:30px;
     transform: rotate(135deg) ;
     
   }
@@ -143,6 +132,7 @@ img{
 
   }
   100%{
+    width:30px;
     transform: rotate(-135deg) ; 
   }
 }
@@ -156,8 +146,4 @@ img{
     transform:scale(1), translateY(-50%);
     opacity:.5;
   }
-}
-.animation{
-  animation: pop .3s linear;
-  /* transform: translateY(-100px); */
 }

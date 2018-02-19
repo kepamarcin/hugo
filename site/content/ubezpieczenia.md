@@ -2,7 +2,7 @@
 title: "Ubezpieczenia"
 date: 2018-02-13T10:52:43+01:00
 draft: false
-image: "https://source.unsplash.com/random/1200x400"
+image: "/images/c-ubezpieczenia.jpg"
 menu:
   main:
     name: "Ubezpieczenia"

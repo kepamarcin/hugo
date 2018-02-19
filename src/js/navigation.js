@@ -1,11 +1,12 @@
 var navigation;
 const button = document.querySelector(".menu-button"),
-      menu = document.querySelector(".menu");
+      menu = document.querySelector(".menu"),
+      header = document.querySelector(".header");
 
 // button.addEventListener('click', () => menu.classList.toggle("is-open"));
 button.addEventListener('click', function(){
       menu.classList.toggle("is-open");
-      this.classList.toggle("close");
+      header.classList.toggle("menu-open");
       this.classList.add("animation");
   
 });
