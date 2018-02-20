@@ -16,9 +16,9 @@ Każdy biznes ma swoją specyfikę – tak jest też z klauzulami ubezpieczeniow
 
 Innej formy ochrony ubezpieczeniowej potrzebuje branża transportowa, innej zaś branża spożywcza. Badanie potrzeb klienta pozwala właściwie dobrać odpowiednie klauzule, co nie tylko zabezpieczy kapitał przed konsekwencjami niekorzystnych zdarzeń. 
 
-Dobór właściwego zakresu odpowiedzialności ubezpieczenia pozwoli także zaoszczędzić posiadane środki. 
+Dobór właściwego zakresu ubezpieczenia pozwoli zaoszczędzić posiadane środki, co wynika bezpośrednio z obniżenia składki. 
 
-Współpraca z najbardziej doświadczonymi brokerami, umożliwia nam zaoferowanie kompleksowej ochrony ubezpieczeniowej, uwzgledniającej wszystkie potrzeby klienta. 
+Współpraca z najbardziej doświadczonymi brokerami, umożliwia nam zaoferowanie kompleksowej ochrony ubezpieczeniowej, uwzgędniającej wszystkie potrzeby klienta. 
 
 Jeżeli chcesz, abyśmy przedstawili Ci ofertę ubezpieczeniową możesz zrobić to na dwa sposoby:
 

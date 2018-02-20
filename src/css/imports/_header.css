@@ -54,6 +54,7 @@
     flex-direction: row;
     height: auto;
     margin:var(--margin-large) 0 var(--margin-small);
+    margin-bottom:1.65em;
   }
   &-logo{
     margin:auto;

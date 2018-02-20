@@ -1,15 +1,15 @@
 ---
-title: "Pomoc w zakupie auta Autoscout"
+title: "Pomoc w zakupie auta AutoScan"
 date: 2018-02-13T10:48:20+01:00
 draft: false
 image: "/images/c-car-2.jpg"
 imagethb: "https://source.unsplash.com/random/300x200"
 menu:
   main:
-    name: "Autoscout"
+    name: "AutoScan"
     weight: 4
   side:
-    name: "Pomoc w zakupie auta Autoscout"
+    name: "Pomoc w zakupie auta AutoScan"
     weight: 5
 ---
 ## Pomoc w zakupie auta

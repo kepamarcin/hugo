@@ -15,27 +15,27 @@ menu:
 ## Sprzątanie nieruchomości
 Zajmujemy się stałym, regularnym utrzymywaniem porządku oraz jednorazowymi zleceniami na terenie Warszawy i okolic. 
 
-Nasza oferta skierowana jest zarówno dla firm i instytucji, jak i klientów indywidualnych.
+Nasza oferta skierowana jest zarówno do firm i instytucji, jak i do klientów indywidualnych.
 
 Nasze usługi to najwyższa jakość, wynikającą z zatrudniania fachowego personelu, renomowanego sprzętu i środków czyszczących.
 
-Nasze usługi obejmują:
+**Nasze usługi obejmują:**
 
-* Sprzątanie pomieszczeń biurowych
-* Sprzątanie osiedli mieszkaniowych
-* Sprzątanie placów i terenów przyzakładowych
-* Sprzątanie hoteli
-* Sprzątanie restauracji
-* Sprzątanie hal produkcyjnych
-* Sprzątanie poremontowe
-* Sprzątanie prywatnych posesji
-* Sprzątanie mieszkań
-* Sprzątanie obiektów i terenów sportowych
-* Sprzątanie szkół
-* Pranie wykładzin, dywanów i tapicerki meblowej
-* Mycie okien
-* Czyszczenie, mycie pomników
+* Sprzątanie pomieszczeń biurowych,
+* Sprzątanie osiedli mieszkaniowych,
+* Sprzątanie placów i terenów przyzakładowych,
+* Sprzątanie hoteli,
+* Sprzątanie restauracji,
+* Sprzątanie hal produkcyjnych,
+* Sprzątanie poremontowe,
+* Sprzątanie prywatnych posesji,
+* Sprzątanie mieszkań,
+* Sprzątanie obiektów i terenów sportowych,
+* Sprzątanie szkół,
+* Pranie wykładzin, dywanów i tapicerki meblowej,
+* Mycie okien,
+* Czyszczenie, mycie pomników.
 
 ### NOWOŚĆ
 ![Organizacja ruchu i pielęgnacja zieleni](/images/c-organizacja-ruchu680.jpg "Organizacja ruchu i pielęgnacja zieleni | Biuro Centurion")
-<p class="highlight">W ramach usług obsługi nieruchomości oferujemy również pielęgnację zieleni oraz tworzenie kompleksowych organizacji ruchu, umożliwiających m.in. interwencje służb w pełnym zakresie (w naszych planach uwzględniamy wytyczne prawa budowlanego i przepisy wykonawcze dotyczące znaków i sygnałów drogowych)</p>
+<p class="highlight">W ramach usług obsługi nieruchomości oferujemy również pielęgnację zieleni oraz tworzenie kompleksowych organizacji ruchu, umożliwiających m.in. interwencje służb w pełnym zakresie (w naszych planach uwzględniamy wytyczne prawa budowlanego i przepisy wykonawcze dotyczące znaków i sygnałów drogowych).</p>
