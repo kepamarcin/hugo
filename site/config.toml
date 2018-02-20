@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "pl-pl"
 languageLang = "pl"
-title = "Biuro ochrony centurion"
+title = "Biuro ochrony „Centurion”"
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 
