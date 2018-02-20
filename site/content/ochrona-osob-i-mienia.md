@@ -23,10 +23,6 @@ Nie stosujemy biznesowych szablonów &ndash; dla każdego klienta dobieramy ofer
 * Ochrona fizyczna obiektów,
 * Kontrole i audyt ochrony obiektów,
 * Szkolenia pracowników ochrony (BHP, PPOŻ, podejmowanie interwencji, regulacje prawne).
-
-### NOWOŚĆ
-<p class="highlight"> Szkolenia z zakresu rozpoznawania i weryfikacji autentyczności dokumentów oraz środków płatniczych będących w obrocie UE</p>
-
 * Kontrola i nadzór nad pracownikami ochrony (badanie trzeźwości, sprawdzenie znajomości procedur i ich stosowania w praktyce),
 * Zabezpieczenie i  obsługa imprez masowych (ochrona, stewardzi, służba informacyjna),
 * Ochrona osobista VIP,
@@ -35,3 +31,6 @@ Nie stosujemy biznesowych szablonów &ndash; dla każdego klienta dobieramy ofer
 * Kompleksowa obsługa recepcji/sekretariatu,
 * Doradztwo w zakresie zabezpieczenia obiektu,
 * Obsługa bezpieczeństwa podróży służbowych.
+
+### NOWOŚĆ
+<p class="highlight"> Szkolenia z zakresu rozpoznawania i weryfikacji autentyczności dokumentów oraz środków płatniczych będących w obrocie UE</p>

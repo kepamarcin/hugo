@@ -18,14 +18,14 @@ Innej formy ochrony ubezpieczeniowej potrzebuje branża transportowa, innej zaś
 
 Dobór właściwego zakresu ubezpieczenia pozwoli zaoszczędzić posiadane środki, co wynika bezpośrednio z obniżenia składki. 
 
-Współpraca z najbardziej doświadczonymi brokerami, umożliwia nam zaoferowanie kompleksowej ochrony ubezpieczeniowej, uwzgędniającej wszystkie potrzeby klienta. 
+Współpraca z najbardziej doświadczonymi brokerami, umożliwia nam zaoferowanie kompleksowej ochrony ubezpieczeniowej, uwzględniającej wszystkie potrzeby klienta. 
 
 Jeżeli chcesz, abyśmy przedstawili Ci ofertę ubezpieczeniową możesz zrobić to na dwa sposoby:
 
 * zamów spotkanie z doradcą w dogodnym dla Ciebie terminie i miejscu
 * Skontaktuj się z nami mailowo – wyślemy ofertę na podstawie przedstawionych przez Ciebie informacji
 
-<p class="highlight">Jeżeli zdecydujesz się na zawarcie polisy, bezpłatnie dostarczymy niezbędne dokumenty ubezpieczeniowe</p>
+<p class="highlight">Jeżeli zdecydujesz się na zawarcie umowy ubezpieczeniowej, bezpłatnie dostarczymy polisę.</p>
 
 ### Ubezpieczamy
 * OC FIRM – atrakcyjne pakiety, szeroki zakres, atrakcyjna cena

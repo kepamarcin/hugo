@@ -10,7 +10,7 @@ menu:
     weight: 10
 ---
 
-{{< map AIzaSyDdKMbgTA7tzPuo3xP8v7WavLKSQAZLhiU 0 0 >}}
+{{< map  AIzaSyBytwihagGamoPPuwezvMeDSiDfjn1IJJg  >}}
 
 ## Skontaktuj się z nami
 * lorem 
