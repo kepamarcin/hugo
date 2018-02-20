@@ -1,15 +1,15 @@
 ---
-title: "Sprzątanie nieruchomości"
+title: "Obsługa nieruchomości"
 date: 2018-02-13T10:48:30+01:00
 draft: false
 image: "/images/c-cleaning-services.jpg"
-imagethb: "https://source.unsplash.com/random/300x200"
+imagethb: "/images/cs-300x200.jpg"
 menu:
   main:
     name: "Sprzątanie"
     weight: 4
   side:
-    name: "Sprzątanie nieruchomości"
+    name: "Obsługa nieruchomości"
     weight: 4
 ---
 ## Sprzątanie nieruchomości

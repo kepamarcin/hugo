@@ -4,12 +4,14 @@ date: 2019-02-13T10:48:17+01:00
 draft: false
 image: ""
 sidemenu: false
-sidetitle: ""
 menu:
   main:
     name: "Kontakt"
     weight: 10
 ---
+
+{{< map AIzaSyDdKMbgTA7tzPuo3xP8v7WavLKSQAZLhiU 0 0 >}}
+
 ## Skontaktuj się z nami
 * lorem 
 * lorem 

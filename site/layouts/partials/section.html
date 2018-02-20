@@ -3,7 +3,7 @@
   {{- if .Params.imagethb }}
   <figure>
     <a href="{{ .URL}}">
-      <img src="{{ .Params.imagethb }}" alt="">
+      <img class="lazy" data-src="{{ .Params.imagethb }}" alt="" src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" width="300" height="200">
       <figcaption>{{ .Title }}</figcaption>
   </a>
   </figure>

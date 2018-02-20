@@ -3,7 +3,7 @@ title: "Ochrona osób i mienia"
 date: 2018-02-13T10:48:54+01:00
 draft: false
 image: "/images/c-security-2.jpg"
-imagethb: "https://source.unsplash.com/random/300x200"
+imagethb: "/images/security-300x200.jpg"
 menu:
   main:
     name: "Ochrona"
@@ -19,7 +19,7 @@ Zdobyte doświadczenie pozwala nie tylko na świadczenie usług na najwyższym p
 
 Nie stosujemy biznesowych szablonów &ndash; dla każdego klienta dobieramy ofertę indywidualnie.
 
-### Działamy na podstawie koncesji wydanej przez Ministra Spraw Wewnętrznych [nr L-0073/15](https://www.google.com "Link do numeru licencji MSWiA dla Biura Ochrony Centurion")
+### Działamy na podstawie koncesji wydanej przez Ministra Spraw Wewnętrznych [nr L-0073/15](https://www.mswia.gov.pl/pl/bezpieczenstwo/koncesje-i-zezwolenia/262,Uslugi-ochrony-osob-i-mienia.html "Link do strony MSWiA ")
 * Ochrona fizyczna obiektów,
 * Kontrole i audyt ochrony obiektów,
 * Szkolenia pracowników ochrony (BHP, PPOŻ, podejmowanie interwencji, regulacje prawne).
