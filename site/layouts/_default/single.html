@@ -7,6 +7,9 @@
       <img src="{{ .Params.image}}" alt=".Title">
     </figure>
     {{ end}}
+    {{if .Params.map }}
+      {{ partial "map" .}}
+    {{end}}
 
     <article class="main-content">
         {{.Content}}

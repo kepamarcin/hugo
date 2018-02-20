@@ -4,13 +4,14 @@ date: 2019-02-13T10:48:17+01:00
 draft: false
 image: ""
 sidemenu: false
+map: true
 menu:
   main:
     name: "Kontakt"
     weight: 10
 ---
 ## Skontaktuj się z nami
-{{< map >}}
+<!-- {{< map >}} -->
 
 
 <p class="contact-data highlight"><a href="tel:+48888766366" class="phone"><svg class="icon"><use xlink:href="#mobile" /></svg>+48 888 766 366</a></p>
