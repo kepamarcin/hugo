@@ -9,15 +9,14 @@ menu:
     name: "Kontakt"
     weight: 10
 ---
-
-{{< map AIzaSyAX9bhLzUrE6FcgbNg-Rqy7g6U0MqRTJ5A >}}
-
 ## Skontaktuj się z nami
 * lorem 
 * lorem 
 * lorem 
 * lorem 
 * lorem 
+
+{{< map >}}
 
 ## Lorem Ipsum
 * lorem 
