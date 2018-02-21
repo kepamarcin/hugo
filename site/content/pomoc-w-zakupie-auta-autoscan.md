@@ -17,23 +17,23 @@ menu:
 
 Do każdego badania, na życzenie klienta wystawiamy stosowny certyfikat z oględzin. Z naszych usług korzystają nie tylko osoby, które planują zakup pojazdu, ale także sprzedający, którzy chcą potwierdzić stan swojego auta.
 
-![Autoscout](/images/c-car-autoscout680.jpg "Autoscaut Biuro Centurion")
+![AutoScan](/images/c-car-autoscout680.jpg "AutoScan Biuro Centurion")
 
 Jeżeli jesteś zainteresowany zakupem pojazdu , weryfikację jego stanu możemy przeprowadzić na dwa sposoby:
 
 * Nie masz czasu? Odległość jest znaczna? Skontaktujemy się ze sprzedającym i udamy się na wskazane miejsce. Dokonamy oględzin, a ich wynik wraz ze zdjęciami przekażemy w dowolnie wybranej przez Ciebie formie. 
 * Sprzedałeś auto i nie masz się czym wybrać po nowy zakup? Zawieziemy Cię na miejsce, aby dokonać sprawdzenia w Twojej obecności. 
 
-<p class="highlight"> Sam nie możesz znaleźć odpowiedniego auta? Na podstawie Twoich wytycznych i potrzeb znajdziemy go dla Ciebie!</p>
+<p class="highlight"> Sam nie możesz znaleźć odpowiedniego auta? Na podstawie Twoich wytycznych i potrzeb znajdziemy je dla Ciebie!</p>
 
 ### Oferujemy
 
-* Weryfikacja dokumentów, aktualnego stanu prawnego pojazdu
-* Sprawdzenie stanu szyb, oświetlenia, ogumienia
+* Weryfikacja dokumentów, aktualnego stanu prawnego pojazdu,
+* Sprawdzenie stanu szyb, oświetlenia, ogumienia,
 * Wyposażenie pojazdu, stan wnętrza,
 * Badanie komputerem diagnostycznym, 
-* Przesłanie zdjęć 
-* Weryfikacja przeszłości na podstawie danych z ewidencji
-* Wystawienie certyfikatu, dokumentu z badania
+* Przesłanie zdjęć,
+* Weryfikacja przeszłości na podstawie danych z ewidencji,
+* Wystawienie certyfikatu, dokumentu z badania.
 
 

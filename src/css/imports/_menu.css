@@ -1,5 +1,5 @@
 .menu{
-    visibility:hidden;
+    /* visibility:hidden; */
     position: fixed;
     top:0;
     left: 0;
@@ -7,9 +7,9 @@
     height: 100vh;
     z-index: 10;
     background-color: color(var(--dark) lightness(10%));
-    display: flex;
+    /* display: flex; */
     transform:translateX(-100%);
-    transition: all .3s cubic-bezier(.535,0,0,1) 0s;;
+    transition: all .3s ease-in 0s;
   & ul{
     display: flex;
     flex-direction: column;
@@ -66,7 +66,8 @@
     }
   }
   &.is-open{
-    visibility: visible;
+    /* opacity:1;
+    visibility: visible; */
     transform:translateX(0);
     /* display:flex; */
     & a{

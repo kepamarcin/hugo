@@ -16,11 +16,11 @@ Naszym celem jest kształtowanie właściwych postaw w zakresie BHP i PPOŻ. Zas
 
 **Nasi specjaliści służą pomocą w zakresie:**
 
-* Opracowywanie instrukcji BHP
-* Szkoleń wstępnych i okresowych BHP, PPOŻ,
-* Doradztwo
-* Badanie trzeźwości pracowników (certyfikowane alkomaty dowodowe),
+* Doradztwa w przestrzeni BHP, PPOŻ,
+* Opracowywania instrukcji,
+* Szkoleń wstępnych i okresowych BHP,
+* Badania trzeźwości pracowników (dysponujemy certyfikowanymi alkomatami dowodowymi),
 * Szkoleń z zakresu pierwszej pomocy,
-* Ocena ryzyka zawodowego,
-* Audyt stanu BHP w zakładzie pracy,
-* Analiza zdarzeń i kompleksowa obsługa wypadków przy pracy
+* Oceny ryzyka zawodowego,
+* Audytu stanu BHP w zakładzie pracy,
+* Analizy zdarzeń i kompleksowej obsługi wypadków.

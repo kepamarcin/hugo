@@ -10,8 +10,6 @@
       &::before{
         content:"";
         background: linear-gradient(-45deg, var(--dark) 35%, var(--yellow) 35%, var(--yellow) 65%, var(--dark) 65%);
-        /* background: linear-gradient(-45deg, var(--yellow) 50%, var(--dark) 50%); */
-        /* background: linear-gradient(-45deg, var(--yellow) 33.33%, var(--dark) 33.33%, var(--dark) 66.66%, var(--yellow) 66.66%); */
         width: calc(var(--unit)/2.48832);
         height: calc(var(--unit)/2.48832);
         position: absolute;

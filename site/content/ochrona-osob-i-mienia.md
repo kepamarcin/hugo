@@ -22,7 +22,7 @@ Nie stosujemy biznesowych szablonów &ndash; dla każdego klienta dobieramy ofer
 ### Działamy na podstawie koncesji wydanej przez Ministra Spraw Wewnętrznych [nr L-0073/15](https://www.mswia.gov.pl/pl/bezpieczenstwo/koncesje-i-zezwolenia/262,Uslugi-ochrony-osob-i-mienia.html "Link do strony MSWiA ")
 * Ochrona fizyczna obiektów,
 * Kontrole i audyt ochrony obiektów,
-* Szkolenia pracowników ochrony (BHP, PPOŻ, podejmowanie interwencji, regulacje prawne).
+* Szkolenia pracowników ochrony (BHP, PPOŻ, podejmowanie interwencji, regulacje prawne),
 * Kontrola i nadzór nad pracownikami ochrony (badanie trzeźwości, sprawdzenie znajomości procedur i ich stosowania w praktyce),
 * Zabezpieczenie i  obsługa imprez masowych (ochrona, stewardzi, służba informacyjna),
 * Ochrona osobista VIP,
