@@ -102,47 +102,63 @@
 .menu-text{
   display: inline-block;
   vertical-align:middle;
-  line-height: 60px;
+  text-transform:uppercase;
+  font-size:14px;
   top:0;
 }
 .menu-button{
-  display: block;
+  display: inline-block;
   width:60px;
   height: 60px;
   position: relative;
-  /* background-color: var(--yellow); */
-  background-color: color(var(--white) alpha(70%));
-  box-shadow: 0 0 5px rgba(0,0,0, .3);
+  background-color: var(--yellow);
   border:0;
   border-radius:50%;
   color: var(--dark);
   font-weight: var(--font-weight-bold);
   transition: background-color .5s linear, transform 3s linear .1s;
-  &::before{
+  overflow: hidden;
+  & span{
     position: absolute;
     content:"";
-    font-size:14px;
     width:30px;
     height: 2px;
     left: 50%;
     top: 50%;
     margin-left: -15px;
-    margin-top:2px;
+    margin-top:0;
+    background-color: var(--dark);
+    transition:all .5s ease-out .2s;
+  }
+  &::before{
+    position: absolute;
+    content:"";
+    width:30px;
+    height: 2px;
+    left: 50%;
+    top: 50%;
+    margin-left: -15px;
+    margin-top:-6px;
     background-color: var(--dark);
     transition:all .2s ease-out .4s;
   }
   &::after{
-    position: absolute;
     content:"";
+    position: absolute;
+    font-size:12px;
     width:30px;
     height: 2px;
     left: 50%;
     top: 50%;
     margin-left: -15px;
-    margin-top:-3px;;
+    margin-top:6px;
     background-color: var(--dark);
     transition:all .2s ease-out .35s;
-  } 
+  }
+  &.bgchanged{
+    background-color: color(var(--white) alpha(70%));
+    box-shadow: 0 0 3px rgba(0,0,0, .4);
+  }
   
   @media (--viewport-medium){
     display: none;
@@ -161,6 +177,10 @@
       &::after{
         margin-top:0;
         transform:rotate(315deg);
+      }
+      & span{
+        opacity: 0;
+        transform: translateX(1000%);
       }
     }
   }
