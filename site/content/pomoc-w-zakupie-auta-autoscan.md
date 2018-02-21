@@ -17,7 +17,7 @@ menu:
 
 Do każdego badania, na życzenie klienta wystawiamy stosowny certyfikat z oględzin. Z naszych usług korzystają nie tylko osoby, które planują zakup pojazdu, ale także sprzedający, którzy chcą potwierdzić stan swojego auta.
 
-![AutoScan](/images/c-car-autoscout680.jpg "AutoScan Biuro Centurion")
+![AutoScan Biuro Centurion - Pomoc w zakupie auta](/images/c-car-autoscout680.jpg "AutoScan Biuro Centurion - Pomoc w zakupie auta")
 
 Jeżeli jesteś zainteresowany zakupem pojazdu , weryfikację jego stanu możemy przeprowadzić na dwa sposoby:
 
