@@ -3,19 +3,13 @@
  */
 @import "imports/_normalize.css"; 
 @import "imports/_variables.css";
-/* @import "imports/_grid.css"; */
 @import "imports/_base.css";
-@import "imports/_animations.css";
+
 @import "imports/_header.css";
 @import "imports/_menu.css";
-/* @import "imports/_home-page.css"; */
+
 @import "imports/_page.css";
 @import "imports/_aside.css";
+@import "imports/_animations.css";
 
-
-
-
-/*
-  Or add your statements here:
- */
 

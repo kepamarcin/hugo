@@ -21,7 +21,9 @@
   }
 }
 @keyframes pulse {
-  0%{transform:scale(.5), translateY(-50%)}
+  0%{
+    transform:scale(.5), translateY(-50%);
+  }
   50%{
     transform:scale(.8), translateY(-50%);
     opacity:.7;

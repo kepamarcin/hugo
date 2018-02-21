@@ -185,8 +185,8 @@
   top:0;
 }
 .menu-button{
-  line-height: 60px;
-  display: inline-block;
+  /* line-height: 60px; */
+  display: block;
   width:60px;
   height: 60px;
   position: relative;
@@ -195,7 +195,7 @@
   border-radius:50%;
   color: var(--dark);
   font-weight: var(--font-weight-bold);
-  transition:all .5s linear;
+  transition: background-color .4s linear;
   &::before{
     position: absolute;
     content:"";
@@ -216,9 +216,9 @@
     left: 50%;
     top: 50%;
     margin-left: -15px;
-    margin-top:-2px;;
+    margin-top:-3px;;
     background-color: var(--dark);
-    transition:all .2s ease-out .5s;
+    transition:all .2s ease-out .45s;
   } 
   
   @media (--viewport-medium){

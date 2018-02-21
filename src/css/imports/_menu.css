@@ -81,10 +81,11 @@
   display: block;
   visibility: visible;
   position: relative;
-  transform:translate(0);
+  transform:translateY(0);
   width: auto;
   height: auto;
   background-color: transparent;
+  left:0;
     & ul {
       display:flex;
       justify-content:space-around;
