@@ -22,14 +22,14 @@ Współpraca z najbardziej doświadczonymi brokerami, umożliwia nam zaoferowani
 
 Jeżeli chcesz, abyśmy przedstawili Ci ofertę ubezpieczeniową możesz zrobić to na dwa sposoby:
 
-* zamów spotkanie z doradcą w dogodnym dla Ciebie terminie i miejscu
+* Zamów spotkanie z doradcą w dogodnym dla Ciebie terminie i miejscu
 * Skontaktuj się z nami mailowo – wyślemy ofertę na podstawie przedstawionych przez Ciebie informacji
 
 <p class="highlight">Jeżeli zdecydujesz się na zawarcie umowy ubezpieczeniowej, bezpłatnie dostarczymy polisę.</p>
 
 ### Ubezpieczamy
-* OC FIRM – atrakcyjne pakiety, szeroki zakres, atrakcyjna cena
+* OC FIRM – atrakcyjne pakiety, szeroki zakres, atrakcyjna cena,
 * Kompleksowe ubezpieczenia pojazdów,
-* Ubezpieczenia flotowe
-* Ubezpieczenia nieruchomości
-* Ubezpieczenia turystyczne
+* Ubezpieczenia flotowe,
+* Ubezpieczenia nieruchomości,
+* Ubezpieczenia turystyczne.

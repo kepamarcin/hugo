@@ -28,12 +28,12 @@ Jeżeli jesteś zainteresowany zakupem pojazdu , weryfikację jego stanu możemy
 
 ### Oferujemy
 
-* Weryfikacja dokumentów, aktualnego stanu prawnego pojazdu,
+* Weryfikacja dokumentów, aktualnego stanu prawnego,
 * Sprawdzenie stanu szyb, oświetlenia, ogumienia,
-* Wyposażenie pojazdu, stan wnętrza,
-* Badanie komputerem diagnostycznym, 
-* Przesłanie zdjęć,
+* Sprawdzenie wyposażenia pojazdu, stanu wnętrza,
+* Badanie komputerem diagnostycznym,
 * Weryfikacja przeszłości na podstawie danych z ewidencji,
+* Przesłanie zdjęć,
 * Wystawienie certyfikatu, dokumentu z badania.
 
 
