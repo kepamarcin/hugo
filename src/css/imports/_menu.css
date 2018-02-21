@@ -1,15 +1,15 @@
 .menu{
-    /* visibility:hidden; */
+    visibility:hidden;
     position: fixed;
     top:0;
     left: -100%;
-    width:-100%;
+    width: 100vw;
     height: 100vh;
     z-index: 10;
     background-color: color(var(--dark) lightness(10%));
     display: flex;
     transform:translateX(-100%);
-    transition: all .3s ease-in 0s;
+    transition: all .35s ease-in 0s;
   & ul{
     display: flex;
     flex-direction: column;
@@ -27,31 +27,30 @@
     overflow-y: hidden;
     font-family:var(--font-sans);
     &:nth-child(2n) a{
-      transition-delay:.25s;
+      transition-delay:.32s;
     }
     &:nth-child(3n) a{
-      transition-delay:.3s;
+      transition-delay:.39s;
     }
     &:nth-child(4n) a{
-      transition-delay:.35s;
+      transition-delay:.46s;
     }
     &:nth-child(5n) a{
-      transition-delay:.4s;
+      transition-delay:.53s;
     }
     &:nth-child(6n) a{
-      transition-delay:.45s;
+      transition-delay:.60s;
     }
     &:nth-child(7n) a{
-      transition-delay:.5s;
+      transition-delay:.67s;
     }
   }
   & a{
     display: block;
     line-height: 1;
-    /* color: color(var(--yellow) blackness(10%)); */
     transform: translateY(var(--unit));
     visibility:hidden;
-    transition: all .2s ease-in-out .2s;
+    transition: all .15s cubic-bezier(0, 0, 0.46, 1.11) .35s;
     &.is-active::before{
       width:.5em;
       height: .5em;
@@ -66,13 +65,12 @@
     }
   }
   &.is-open{
-    /* opacity:1;
-    visibility: visible; */
+    visibility: visible;
     left: 0;
     right: 0;
     width:100vw;
+    width:100vh;
     transform:translateX(0);
-    /* display:flex; */
     & a{
       transform: translateY(0);
       visibility: visible;
