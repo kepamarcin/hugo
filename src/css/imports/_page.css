@@ -147,6 +147,7 @@
     font-weight:bold;
     & a{
        color:#aaa;
+       display: inline-flex;
     }
     & svg {
       fill: var(--yellow);
