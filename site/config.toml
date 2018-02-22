@@ -12,3 +12,5 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
     weight = 1
     identifier = "onas"
     url = "/"
+[params]
+  description = "Biuro Centurion to firma z wieloletnim stażem, działająca na podstawie koncesji nr L-0073/15 wydanej przez Ministra Spraw Wewnętrznych"
