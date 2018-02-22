@@ -97,7 +97,7 @@
       width:30%;
     }
   }
-  & figcaption {
+  & span {
     font-weight: var(--font-weight-bold);
     font-family:var(--font-sans);
     font-size: var(--font-size-base);
