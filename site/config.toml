@@ -1,7 +1,7 @@
-baseurl = "/"
-languageCode = "pl-pl"
+baseurl = "https://www.biurocenturion.pl"
+languageCode = "pl-Pl"
 languageLang = "pl"
-title = "Biuro ochrony „Centurion”"
+title = "Biuro Ochrony Biznesu „Centurion”"
 
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 

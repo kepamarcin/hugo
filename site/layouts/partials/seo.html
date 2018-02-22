@@ -9,8 +9,12 @@
     <meta content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ delimit .PlainWords " " | truncate 150}}{{ end }}" property="og:description">
     <meta property="og:url" content="{{ .Permalink }}" />
     <meta property="og:site_name" content="{{ .Site.Title }}" />
-    
-    
+    {{ if .IsHome }}
+    <meta property="og:image" content="https://www.biurocenturion.pl/images/main.jpg" />
+    {{ end}}
+    {{ if .IsPage }}
+    <meta property="og:image" content="https://www.biurocenturion.pl/{{ .Params.image }}" />
+    {{ end }}
     <!-- JSON-LD -->
     {{ if .IsHome }}
     <script type="application/ld+json">
@@ -44,7 +48,7 @@
       "name": "{{ .Site.Title }}",
       "url": "https://www.biurocenturion.pl",
       "logo": "https://www.biurocenturion.pl/images/centurion.png",
-      "image": "https://www.biurocenturion.pl/images/main.png",
+      "image": "https://www.biurocenturion.pl/images/main.jpg",
       "description": "{{ .Site.Params.description }}",
       "address": {
         "@type": "PostalAddress",
