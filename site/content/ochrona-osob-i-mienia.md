@@ -17,7 +17,7 @@ Jednym z głównych filarów działalności „Centuriona” jest  ochrona osób
 
 Zdobyte doświadczenie pozwala nie tylko na świadczenie usług na najwyższym poziomie, ale zapewnia właściwą współpracę pomiędzy prywatnym, a publicznym sektorem bezpieczeństwa. 
 
-Nie stosujemy biznesowych szablonów &ndash; dla każdego klienta dobieramy ofertę indywidualnie.
+Nie stosujemy biznesowych szablonów &ndash; dla każdego klienta dobieramy ofertę indywidualnie. 
 
 ### Działamy na podstawie koncesji wydanej przez Ministra Spraw Wewnętrznych [nr L-0073/15](https://www.mswia.gov.pl/pl/bezpieczenstwo/koncesje-i-zezwolenia/262,Uslugi-ochrony-osob-i-mienia.html "Link do strony MSWiA ")
 * Ochrona fizyczna obiektów,
