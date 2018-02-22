@@ -1,6 +1,12 @@
-{{ define "main" }}
-  {{ partial "header" . }}
+{{ define "head" }}
+  {{ partial "head" . }}
+{{ end}}
 
+{{ define "header" }}
+  {{ partial "header" . }}
+{{ end}}
+
+{{ define "main" }}
   <main>
     {{if .Params.image}}
     <figure class="main-image">
@@ -20,4 +26,8 @@
   {{ partial "footer" . }}
 
 {{ end }}
+
+{{ define "footer" }}
+  {{ partial "footer" . }}
+{{ end}}
 

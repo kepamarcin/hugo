@@ -1,23 +1,15 @@
-    <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Description }}{{ end }}"/>
+    <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ delimit .PlainWords " " | truncate 250}}{{ end }}"/>
     <meta name="robots" content="index,follow"/>
     <link rel="canonical" href="{{ .Permalink }}" />
 
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Description }}{{ end }}" />
-    <meta name="twitter:title" content="{{ .Title }}{{ if .IsHome }} - {{ .Site.Params.Tagline }}{{ else }} - {{ .Site.Title }}{{ end }}" />
-    <meta name="twitter:site" content="{{ .Site.Params.twitter }}" />
-    <meta name="twitter:creator" content="{{ .Site.Params.twitter }}" />
-
     <!-- OG data -->
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
-    <meta content="{{ .Title }}{{ if .IsHome }} - {{ .Site.Params.Tagline }}{{ else }} - {{ .Site.Title }}{{ end }}" property="og:title">
-    <meta content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Description }}{{ end }}" property="og:description">
+    <meta property="og:locale" content="pl_PL" />
+    <meta property="og:type" content="website" />
+    <meta content="{{ .Title }}" property="og:title">
+    <meta content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ delimit .PlainWords " " | truncate 150}}{{ end }}" property="og:description">
     <meta property="og:url" content="{{ .Permalink }}" />
     <meta property="og:site_name" content="{{ .Site.Title }}" />
-    {{ range .Params.categories }}<meta property="article:section" content="{{ . }}" />{{ end }}
-    {{ if isset .Params "date" }}<meta property="article:published_time" content="{{ time .Date }}" />{{ end }}
+    
     
     <!-- JSON-LD -->
     {{ if .IsHome }}
@@ -27,42 +19,60 @@
       "@type": "WebSite", 
       "url": "{{ .Permalink }}", 
       "name": "{{ .Site.Title }}",
-       "author": {
-          "@type": "Person",
-          "name": "{ .Site.Params.author }}"
-        },
-      "description": "{ .Site.Params.description }}",
+      "description": "{{ .Site.Params.description }}",
     }
     </script>
     {{ end }}
     {{ if .IsPage }}
         <script type="application/ld+json">
-        {{if eq .Section "post"}}
-        { 
-            "@context": "http://schema.org", 
-            "@type": "BlogPosting",
-            "headline": "{{ .Title }}",
-            "genre": "{{ range .Params.categories }}{{ . }}{{ end }}",  
-            "url": "{{ .Permalink }}",
-            "datePublished": "{{ time .Date }}",
-            "description": "{{ .Description }}",
-            "author": {
-                "@type": "Person",
-                "name": "{{ .Site.Params.author }}"
-            }
-         }
-        {{ else }}
+        
         { 
           "@context": "http://schema.org", 
           "@type": "WebSite", 
           "url": "{{ .Permalink }}", 
           "name": "{{ .Title }}",
-           "author": {
-              "@type": "Person",
-              "name": "{ .Site.Params.author }}"
-            },
-          "description": "{ .Site.Params.description }}",
+
+          "description": "{{ delimit .PlainWords " " | truncate 250}}",
         }
         </script>
-        {{ end }}
+        
     {{ end }}
+    <script type="application/ld+json">
+    {
+      "@context": "http://www.schema.org",
+      "@type": "LocalBusiness",
+      "name": "{{ .Site.Title }}",
+      "url": "https://www.biurocenturion.pl",
+      "logo": "https://www.biurocenturion.pl/images/centurion.png",
+      "image": "https://www.biurocenturion.pl/images/main.png",
+      "description": "{{ .Site.Params.description }}",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "ul.Leśna 17 D / 2",
+        "addressLocality": "Jabłonna",
+        "addressRegion": "Mazovian",
+        "postalCode": "05-110",
+        "addressCountry": "PL"
+      },
+      "telephone": ["+48 888 766 366", "+48 510 450 576"],
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "52.377145",
+        "longitude": "20.942575"
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday",
+          "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+      }
+    }
+  </script>    
