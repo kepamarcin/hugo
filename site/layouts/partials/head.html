@@ -6,7 +6,11 @@
   <title>{{if .IsHome}}{{ $.Page.Title }}{{ else }}{{ $.Page.Title }} | {{ .Site.Title }}{{end}}</title>
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="css/main.css"/>
+  <!-- <link rel="stylesheet" href="css/main.css"/> -->
+  <link rel="preload" href="{{ if .IsHome }}{{ .Site.BaseURL}}/images/main.jpg{{else}}{{with .Params.image }}{{ $.Site.BaseURL }}{{ . }}{{end}}{{end}}" as="image">
+  <style>{{- print (partial "main.html" .) | safeCSS -}}</style>
+  <link rel="preconnect" href="https://www.google-analytics.com">
+	<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
   <meta name="google-site-verification" content="dNLjUUl60Dfcjqi2-0g075ToACnePh4rfQJBP8bf9Cs" />
   {{ partial "favicons" .}}
   {{ partial "seo" .}}

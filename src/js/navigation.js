@@ -9,7 +9,7 @@ button.addEventListener('click', function(){
       header.classList.toggle("menu-open");
       this.classList.add("animation");
   
-});
+}, true);
 
 
 function myEndFunction(){
