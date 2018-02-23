@@ -1,4 +1,4 @@
-    <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ delimit .PlainWords " " | truncate 250}}{{ end }}"/>
+    <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else if isset .Params "description" }}{{ .Params.description }}{{ else }}{{ delimit .PlainWords " " | truncate 250}}{{ end }}"/>
     <meta name="robots" content="index,follow"/>
     <link rel="canonical" href="{{ .Permalink }}" />
 
@@ -6,7 +6,7 @@
     <meta property="og:locale" content="pl_PL" />
     <meta property="og:type" content="website" />
     <meta content="{{ .Title }}" property="og:title">
-    <meta content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ delimit .PlainWords " " | truncate 150}}{{ end }}" property="og:description">
+    <meta content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else if isset .Params "description" }}{{ .Params.description }}{{ else }}{{ delimit .PlainWords " " | truncate 150}}{{ end }}" property="og:description">
     <meta property="og:url" content="{{ .Permalink }}" />
     <meta property="og:site_name" content="{{ .Site.Title }}" />
     {{ if .IsHome }}
@@ -16,18 +16,7 @@
     <meta property="og:image" content="https://www.biurocenturion.pl/{{ .Params.image }}" />
     {{ end }}
     <!-- JSON-LD -->
-    {{ if .IsHome }}
-    <script type="application/ld+json">
-    { 
-      "@context": "http://schema.org", 
-      "@type": "WebSite", 
-      "url": "{{ .Permalink }}", 
-      "name": "{{ .Site.Title }}",
-      "description": "{{ .Site.Params.description }}",
-    }
-    </script>
-    {{ end }}
-    {{ if .IsPage }}
+
         <script type="application/ld+json">
         
         { 
@@ -36,11 +25,10 @@
           "url": "{{ .Permalink }}", 
           "name": "{{ .Title }}",
 
-          "description": "{{ delimit .PlainWords " " | truncate 250}}",
+          "description": "{{ if .IsHome }}{{ .Site.Params.description }}{{ else if isset .Params "description" }}{{ .Params.description }}{{ else }}{{ delimit .PlainWords " " | truncate 250}}{{ end }}"
         }
         </script>
-        
-    {{ end }}
+
     <script type="application/ld+json">
     {
       "@context": "http://www.schema.org",
@@ -79,4 +67,43 @@
         "closes": "23:59"
       }
     }
-  </script>    
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "{{.Site.BaseURL}}",
+          "name": "{{.Site.Menus.Name}}",
+          "image": "{{.Site.BaseURL}}/images/main.png"
+        }
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@id": "https://example.com/books/authors",
+          "name": "Authors",
+          "image": "http://example.com/images/icon-author.png"
+        }
+      },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https://example.com/books/authors/annleckie",
+          "name": "Ann Leckie",
+          "image": "http://example.com/images/author-leckie-ann.png"
+        }
+      },{
+        "@type": "ListItem",
+        "position": 4,
+        "item": {
+          "@id": "https://example.com/books/authors/ancillaryjustice",
+          "name": "Ancillary Justice",
+          "image": "http://example.com/images/cover-ancillary-justice.png"
+        }
+      }]
+    }
+    </script>   

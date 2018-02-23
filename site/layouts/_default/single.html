@@ -10,7 +10,7 @@
   <main>
     {{if .Params.image}}
     <figure class="main-image">
-      <img src="{{ .Params.image}}" alt=".Title">
+      <img src="{{ .Params.image}}" alt="{{ .Title }}" title="{{ .Title }}">
     </figure>
     {{ end}}
     {{if .Params.map }}
@@ -28,4 +28,3 @@
 {{ define "footer" }}
   {{ partial "footer" . }}
 {{ end}}
-

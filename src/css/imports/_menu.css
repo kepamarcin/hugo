@@ -84,6 +84,7 @@
   transform:translateY(0);
   width: auto;
   height: auto;
+  transition:none;
   background-color: transparent;
   left:0;
     & ul {

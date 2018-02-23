@@ -5,12 +5,13 @@ draft: false
 image: ""
 sidemenu: false
 map: true
+description: "Skontaktuj się z nami"
 menu:
   main:
     name: "Kontakt"
     weight: 10
 ---
-## Skontaktuj się z nami
+## Skontaktuj się z nam i
 <!-- {{< map >}} -->
 
 

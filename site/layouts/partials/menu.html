@@ -1,11 +1,11 @@
 {{- if .Site.Menus.main }}
-<nav class="menu" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement" >
-	<ul class="menu__list">
+<nav class="menu" >
+	<ul>
 		{{- $currentNode := . }}
 		{{- range sort .Site.Menus.main }}
 		{{- if .Name}}
-		<li class="menu__item">
-			<a class="menu__link{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} is-active{{end}}" href="{{ .URL }}">{{ .Name  }}</a></li>
+		<li>
+			<a {{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }}class="is-active"{{end}} href="{{ .URL }}">{{ .Name  }}</a></li>
 		{{- end }}
 		{{- end }}
 	</ul>
