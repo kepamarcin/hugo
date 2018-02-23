@@ -13,7 +13,7 @@ menu:
     weight: 2
 ---
 ## Ochrona osób i mienia 
-Jednym z głównych filarów działalności „Centuriona” jest  ochrona osób i mienia. Założycielem firmy jest wieloletni strażnik miejski  - **starszy inspektor Konrad Baranowski.** 
+Jednym z głównych filarów działalności „Centuriona” jest  ochrona osób i mienia. Założycielem firmy jest funkcjonariusz - **starszy inspektor Konrad Baranowski**, który od wielu lat działa w przestrzeni samorządowej na rzecz poprawy porządku i bezpieczeństwa.
 
 Zdobyte doświadczenie pozwala nie tylko na świadczenie usług na najwyższym poziomie, ale zapewnia właściwą współpracę pomiędzy prywatnym, a publicznym sektorem bezpieczeństwa. 
 
