@@ -15,3 +15,18 @@ disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
     url = "/"
 [params]
   description = "Biuro Centurion to firma z wieloletnim stażem, działająca na podstawie koncesji nr L-0073/15 wydanej przez Ministra Spraw Wewnętrznych. W sektorze bezpieczeństwa działamy zarówno na rzecz klientów indywidualnych, jak i dla zorganizowanych podmiotów zewnętrznych."
+
+[outputs]
+home = [ "HTML", "HEADERS" ]
+
+[mediaTypes]
+[mediaTypes."text/netlify"]
+suffix = ""
+delimiter = ""
+
+[outputFormats]
+[outputFormats.HEADERS]
+mediatype = "text/netlify"
+baseName = "_headers"
+isPlainText = true
+notAlternative = true
