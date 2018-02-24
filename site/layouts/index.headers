@@ -1,19 +1,14 @@
 /*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: origin-when-cross-origin
   Link: <{{ "css/main.css" | relURL }}>; rel=preload; as=style
   Link: <{{ "images/centurion-logo.svg" | relURL }}>; rel=preload; as=image
-
-{{ range .Site.Pages }}
-{{if .Params.image}}
-  {{.URL}}
-  Link: <{{ "css/main.css" | relURL }}>; rel=preload; as=style
-  Link: <{{ "images/centurion-logo.svg" | relURL }}>; rel=preload; as=image
-  Link: <{{ .Params.image | relURL }}>; rel=preload; as=image
-{{ end}}
-{{end}}
 
 /images/*
-  Cache-Control: public, max-age=36000
+  Cache-Control: public, max-age=3600
 /css/*
-  Cache-Control: public, max-age=36000
+  Cache-Control: public, max-age=3600
 /js/*
-  Cache-Control: public, max-age=36000   
+  Cache-Control: public, max-age=3600 
