@@ -2,12 +2,6 @@
   Link: <{{ "css/main.css" | relURL }}>; rel=preload; as=style
   Link: <{{ "images/centurion-logo.svg" | relURL }}>; rel=preload; as=image
 
-{{ range .Site.Pages }}
-{{if .Params.image}}
-  {{.URL}}
-  Link: <{{ .Params.image | relURL }}>; rel=preload; as=image
-{{ end}}
-{{end}}
 
 /images/*
   Cache-Control: public, max-age=36000
