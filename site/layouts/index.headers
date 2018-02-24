@@ -7,8 +7,8 @@
   Link: <{{ "images/centurion-logo.svg" | relURL }}>; rel=preload; as=image
 
 /images/*
-  Cache-Control: public, max-age=3600
+  Cache-Control: public, max-age=0
 /css/*
-  Cache-Control: public, max-age=3600
+  Cache-Control: public, max-age=0
 /js/*
-  Cache-Control: public, max-age=3600 
+  Cache-Control: public, max-age=0 
