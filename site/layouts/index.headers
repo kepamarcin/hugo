@@ -5,3 +5,4 @@
   Referrer-Policy: origin-when-cross-origin
 */
   Link: <{{ "css/main.css" | relURL }}>; rel=preload; as=style
+  Link: <{{ "images/centurion-logo.svg" | relURL }}>; rel=preload; as=image
