@@ -1,5 +1,5 @@
 .aside{
-  font-family:var(--font-sans);
+  /* font-family:var(--font-sans); */
   & ul{
     margin: 0 var(--margin-small);
     padding: 0;

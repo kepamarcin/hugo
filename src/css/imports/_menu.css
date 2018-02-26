@@ -25,7 +25,7 @@
     font-weight: var(--font-weight-bold);
     font-size: calc(var(--unit)*1.2*1.2);
     overflow-y: hidden;
-    font-family:var(--font-sans);
+    /* font-family:var(--font-sans); */
     &:nth-child(2n) a{
       transition-delay:.32s;
     }
@@ -102,7 +102,7 @@
     }
     & a{
       visibility: visible; 
-      font-family: var(--font-serif);
+      /* font-family: var(--font-serif); */
       font-weight: var(--font-weight-bold);
       color: var(--dark);
       transform: translateY(0);

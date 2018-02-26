@@ -64,11 +64,16 @@ body{
   line-height: 1.2;
 }
 .fonts-stage-2{
-  & :--headings, & .section span, & .contact-data a, & .footer p{
-  font-family: var(--font-sans);
+  & :--headings, & .section span, & .contact-data a, & .footer p, & .aside, & .menu li{
+    font-family: var(--font-sans);
   }
   & .branding-name{
     font-family: var(--font-serif);
+  }
+  @media (--viewport-medium){
+    & .menu li{
+      font-family: var(--font-serif);
+    }
   }
 } 
 h1 {font-size: 2.074em;}

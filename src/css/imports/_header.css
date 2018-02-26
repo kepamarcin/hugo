@@ -85,7 +85,7 @@
   &-name{
     font-size:2.0736em;
     
-    font-family: var(--font-serif);
+    /* font-family: var(--font-serif); */
     font-weight: var(--font-weight-bold);
     margin: 0;
     @media (--viewport-medium){
