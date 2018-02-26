@@ -2,7 +2,7 @@
 title: "Pomoc w zakupie auta AutoScan"
 date: 2018-02-13T10:48:20+01:00
 draft: false
-image: "/images/c-car-2.jpg"
+image: "/images/c-car-2"
 imagethb: "/images/as-300x200.jpg"
 menu:
   main:

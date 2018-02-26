@@ -2,7 +2,7 @@
 title: "Obsługa nieruchomości"
 date: 2018-02-13T10:48:30+01:00
 draft: false
-image: "/images/c-cleaning-services.jpg"
+image: "/images/c-cleaning-services"
 imagethb: "/images/cs-300x200.jpg"
 menu:
   main:

@@ -2,7 +2,7 @@
 title: "Usługi BHP"
 date: 2018-02-13T10:48:39+01:00
 draft: false
-image: "/images/c-bhp-1.jpg"
+image: "/images/c-bhp-1"
 menu:
   main:
     name: "BHP"
