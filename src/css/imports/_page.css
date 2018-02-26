@@ -116,7 +116,7 @@
    align-items: center;
    font-family:var(--font-sans);
    color:var(--dark);
-   /* font-weight:900; */
+   flex-wrap:wrap;
    & svg{
      
      width:calc(var(--unit)*1.44*1.2);
