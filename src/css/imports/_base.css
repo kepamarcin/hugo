@@ -1,5 +1,12 @@
-/*@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,800|PT+Serif:400,400i,700,700i&subset=latin-ext');*/
-/* pt-serif-regular - latin_latin-ext */
+// pt serif optimized
+@font-face {
+  font-family: 'PT Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Serif'), local('PTSerif-Regular'),
+       url('../ptb-opt.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/pt-serif-v9-latin_latin-ext-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}/* pt-serif-regular - latin_latin-ext */
 @font-face {
   font-family: 'PT Serif';
   font-style: normal;
@@ -37,20 +44,29 @@
 }
 
 body{
-  font-family: var(--font-serif);
+  font-family: var(--font-system);
   font-size: var(--font-size-base);
   background: var(--body-background);
   color: var(--dark);
   line-height: 1.5;
   
 }
+.wf-stage-1 body{
+  font-family: var(--font-serif-optimized);
+}
+.wf-stage-2 body{
+  font-family: var(--font-serif);
+}
 :--headings{
   font-weight: var(--font-weight-bold);
-  font-family: var(--font-sans);
+  font-family: var(--font-system);
   margin:0;
   padding: 0;
   margin: 1.414em 0 0.5em;
   line-height: 1.2;
+}
+.wf-stage-2 :--headings{
+  font-family: var(--font-sans);
 }
 h1 {font-size: 2.074em;}
 h2 {font-size: 1.728em;}

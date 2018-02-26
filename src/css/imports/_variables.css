@@ -15,8 +15,10 @@
 /*
  * FONTS
  */
-  --font-serif: "pt serif", serif;
-  --font-sans: "open sans", sans-serif;
+  --font-system:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  --font-serif: "pt serif";
+  --font-serif-optimized: "pt serif opt";
+  --font-sans: "open sans";
   --font-weight-normal:400;
   --font-weight-medium:700;
   --font-weight-bold:900;
