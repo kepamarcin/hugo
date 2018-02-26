@@ -1,10 +1,10 @@
 /*
   You can use import statements to include partials:
  */
-@import "imports/_normalize.css"; 
+
 @import "imports/_variables.css";
 @import "imports/_base.css";
-
+@import "imports/_normalize.css"; 
 @import "imports/_header.css";
 @import "imports/_menu.css";
 
