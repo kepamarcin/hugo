@@ -9,7 +9,7 @@
   <link rel="preload" href="fonts/open-sans-v15-latin_latin-ext-800.woff2" as="font">
   <link rel="preload" href="fonts/pt-serif-v9-latin_latin-ext-regular.woff2" as="font"> -->
   <link rel="stylesheet" href="css/main.css"/>
-  <link rel="preload" href="{{ if .IsHome }}{{ .Site.BaseURL}}/images/main.jpg{{else}}{{with .Params.image }}{{ $.Site.BaseURL }}{{ . }}{{end}}{{end}}" as="image">
+  <link rel="preload" href="{{ if .IsHome }}{{ .Site.BaseURL}}/images/mainx450.jpg{{else}}{{with .Params.image }}{{ $.Site.BaseURL }}{{ . }}x450{{end}}{{end}}" as="image">
   <!-- <style>{{- print (partial "main.html" .) | safeCSS -}}</style> -->
   <link rel="preconnect" href="https://www.google-analytics.com">
 	<!-- <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin> -->
