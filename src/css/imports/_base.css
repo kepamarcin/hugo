@@ -3,7 +3,7 @@
   font-family: 'pt serif opt';
   font-style: normal;
   font-weight: 400;
-  src: url('https://www.biurocenturion.pl/fonts/ptb-opt.woff2') format('woff2');
+  src: url('../fonts/ptb-opt.woff2') format('woff2');
 }/* pt-serif-regular - latin_latin-ext */
 @font-face {
   font-family: 'pt serif';
