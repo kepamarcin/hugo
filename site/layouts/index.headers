@@ -2,7 +2,6 @@
   X-Frame-Options: DENY
   X-XSS-Protection: 1; mode=block
   X-Content-Type-Options: nosniff
-  Referrer-Policy: origin-when-cross-origin
   Access-Control-Allow-Origin: *
   Link: <{{ "css/main.css" | relURL }}>; rel=preload; as=style
   Link: <{{ "images/centurion-logo.svg" | relURL }}>; rel=preload; as=image
