@@ -2,7 +2,7 @@
 title: "Ochrona osób i mienia"
 date: 2018-02-13T10:48:54+01:00
 draft: false
-image: "/images/c-security-2.jpg"
+image: "/images/c-security-2"
 imagethb: "/images/security-300x200.jpg"
 menu:
   main:
