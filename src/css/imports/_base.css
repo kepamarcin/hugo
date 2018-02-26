@@ -63,9 +63,12 @@ body{
   margin: 1.414em 0 0.5em;
   line-height: 1.2;
 }
-.fonts-stage-2 :--headings{
+.fonts-stage-2{
+  & :--headings, & .section span, & .contact-data a, & .footer p{
   font-family: var(--font-sans);
-}
+  }
+  
+} 
 h1 {font-size: 2.074em;}
 h2 {font-size: 1.728em;}
 h3 {font-size: 1.44em;}
