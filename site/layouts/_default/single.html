@@ -11,8 +11,9 @@
     {{if .Params.image}}
     <figure class="main-image">
       
-      <img srcset="{{ .Params.image}}x450.jpg 450w"
-           sizes="(max-width: 450px) 450px"
+      <img srcset="{{ .Params.image}}x450.jpg 450w
+                  {{ .Params.image}}.jpg 1100"
+           sizes="(max-width: 450px) 450px,1100px"
             src="{{ .Params.image}}.jpg" alt="{{ .Title }}" title="{{ .Title }}">
 
 
