@@ -8,11 +8,12 @@
 {{ define "main" }}
   <main class="home">
     <figure class="main-image">
-      
-      <img srcset="/images/mainx450.jpg 450w, 
-                  /images/main.jpg 1100w"
-           sizes="(max-width: 450px) 450px, 1100px"
-            src="/images/mainx450.jpg" alt="{{ .Site.Title }}" title="{{ .Site.Title }}">
+      <img src="images/mainx450.jpg"
+            alt=""
+            srcset="images/mainx450.jpg 450w,
+                    images/main.jpg 1100w"
+            sizes="(max-width: 450px) 450px, 1000vw"
+      >       
     </figure>
     <div class="main-content">
         <section>
