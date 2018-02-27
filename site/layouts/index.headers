@@ -5,7 +5,6 @@
   Access-Control-Allow-Origin: *
 /
   Link: <{{ "css/main.css" | relURL }}>; rel=preload; as=style
-  Link: <{{ "images/centurion-logo.svg" | relURL }}>; rel=preload; as=image
   Link: <{{ "fonts/ptb-opt.woff2" | relURL }}>; rel=preload; as=font
 /images/*
   Cache-Control: public, max-age=2592000

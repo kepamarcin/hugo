@@ -1,5 +1,5 @@
-# baseurl = "https://www.biurocenturion.pl"
-baseurl = "/"
+baseurl = "https://www.biurocenturion.pl"
+# baseurl = "/"
 languageCode = "pl-Pl"
 languageLang = "pl"
 title = "Biuro Ochrony Biznesu „Centurion”"
