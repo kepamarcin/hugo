@@ -8,7 +8,7 @@
   --yellow:#ffca05;
   --dark:#231f20;
 
-  --body-background:color(var(--dark) lightness(+90%));
+  --body-background:color(var(--dark) lightness(90%));
 
   --color-nav-link:var(--yellow);
 

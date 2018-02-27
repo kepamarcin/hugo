@@ -44,7 +44,8 @@
 body{
   font-family: var(--font-system);
   font-size: var(--font-size-base);
-  background: var(--body-background);
+  /* background: var(--body-background); */
+  background: color(var(--dark) lightness(90%));
   color: var(--dark);
   line-height: 1.5;
   

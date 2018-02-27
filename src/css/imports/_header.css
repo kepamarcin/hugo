@@ -168,7 +168,6 @@
   &.menu-open{
     & .menu-button{
       background-color:var(--white);
-      transform:rotateY(900deg);
       &::before{
         content:"";
         margin-top:0;
