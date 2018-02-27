@@ -10,13 +10,13 @@
   <main>
     {{if .Params.image}}
     <figure class="main-image">
-      
-      <img srcset="{{ .Params.image}}x450.jpg 450w,
-                  {{ .Params.image}}.jpg 1100w"
-           sizes="(max-width: 450px) 450px, 1100px"
-            src="{{ .Params.image}}x450.jpg" alt="{{ .Title }}" title="{{ .Title }}">
-
-
+        <img src="{{ .Params.image}}x450.jpg"
+        alt="{{ .Title }}"
+        title="{{ .Title }}"
+        srcset="{{ .Params.image}}x450.jpg 450w,
+                {{ .Params.image}}.jpg 1100w"
+        sizes="(max-width: 450px) 450px, 100vw"
+        >
     </figure>
     {{ end}}
     {{if .Params.map }}
