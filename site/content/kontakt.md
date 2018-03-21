@@ -10,7 +10,7 @@ menu:
     name: "Kontakt"
     weight: 10
 ---
-## Skontaktuj się z nam i
+## Skontaktuj się z nami
 <!-- {{< map >}} -->
 
 
